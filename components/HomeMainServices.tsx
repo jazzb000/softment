@@ -1,6 +1,7 @@
 import Link from "next/link";
+import type { Route } from "next";
 
-function PrimaryButton({ href, children }: { href: string; children: React.ReactNode }) {
+function PrimaryButton({ href, children }: { href: Route; children: React.ReactNode }) {
   return (
     <Link
       href={href}
@@ -11,7 +12,7 @@ function PrimaryButton({ href, children }: { href: string; children: React.React
   );
 }
 
-function SecondaryButton({ href, children }: { href: string; children: React.ReactNode }) {
+function SecondaryButton({ href, children }: { href: Route; children: React.ReactNode }) {
   return (
     <Link
       href={href}

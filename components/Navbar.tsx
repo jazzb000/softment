@@ -3,6 +3,7 @@ import { useState } from "react";
 import { SoftmentLogo } from "./SoftmentLogo";
 import { NavApplyButton } from "./NavApplyButton";
 import Link from "next/link";
+import type { Route } from "next";
 
 interface NavbarProps {
   menuItems?: string[];
@@ -21,11 +22,11 @@ export function Navbar({
 }: NavbarProps) {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
-  const menuPath: Record<string, string> = {
+  const menuPath = {
     '결제 서비스': '/paymentservice',
     '이용요금': '/usingcost',
     '고객센터': '/customerservice',
-  };
+  } as Record<string, Route>;
 
   const handleNavigate = (item: string, type: 'menu' | 'action') => {
     if (type === 'menu') onMenuClick?.(item);
@@ -46,7 +47,7 @@ export function Navbar({
               {menuItems.map((item) => (
                 <Link
                   key={item}
-                  href={menuPath[item] ?? "/"}
+                  href={menuPath[item] ?? ('/' as Route)}
                   className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
                   onClick={() => handleNavigate(item, 'menu')}
                 >
@@ -63,7 +64,7 @@ export function Navbar({
               {actionItems.map((item) => (
                 <Link
                   key={item}
-                  href={item === '로그인' ? '/' : '#'}
+                  href={'/' as Route}
                   className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
                   onClick={() => handleNavigate(item, 'action')}
                 >
@@ -100,7 +101,7 @@ export function Navbar({
             {menuItems.map((item) => (
               <Link
                 key={`m-${item}`}
-                href={menuPath[item] ?? "/"}
+                href={menuPath[item] ?? ('/' as Route)}
                 className="py-3 text-[15px] text-[#333d4b]"
                 onClick={() => handleNavigate(item, 'menu')}
               >
@@ -111,7 +112,7 @@ export function Navbar({
             {actionItems.map((item) => (
               <Link
                 key={`a-${item}`}
-                href={item === '로그인' ? '/' : '#'}
+                href={'/' as Route}
                 className="py-3 text-[15px] text-[#4e5968]"
                 onClick={() => handleNavigate(item, 'action')}
               >
