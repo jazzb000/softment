@@ -141,11 +141,12 @@ export default function Usingcost() {
                 </div>
               </div>
             </div>
-            <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[16px] lg:text-[18px] xl:text-[20px] text-left">
-              <p className="block leading-[1.6] whitespace-pre-wrap lg:whitespace-pre">
-                ＊ 가입비와 연관리비는 가맹점의 계약형태에 <br className="lg:hidden"/>따라 상이할 수 있습니다
-              </p>
-            </div>
+            <ul className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[16px] lg:text-[18px] xl:text-[20px] text-left space-y-[4px]">
+              <li className="relative pl-[18px]">
+                <span className="absolute left-0 top-[1em]">＊</span>
+                <span className="leading-[1.6]">가입비와 연관리비는 가맹점의 계약형태에 <br className="lg:hidden"/>따라 상이할 수 있습니다</span>
+              </li>
+            </ul>
           </div>
         </PageSection>
 
@@ -258,24 +259,12 @@ export default function Usingcost() {
                 </div>
               </div>
             </div>
-            <div className="box-border content-stretch flex flex-col font-['Pretendard'] font-normal items-start justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-[#6b7684] text-[20px] text-left w-full lg:w-[959px]">
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 부가세(VAT) 10% 별도</p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 호스팅사를 통해 가입할 경우, 호스팅사 정책에 따라 적용돼요.</p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">
-                  ＊ 간편결제 서비스 추가수수료는 각 간편결제사의 정책에 따라 달라질 수 있어요.
-                </p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6] break-words">
-                  ＊ 영 · 중소 카드 수수료율 우대 혜택 : 신규 사업자는 가입 시 '일반' 등급으로 적용되고, 매년 1・7월 국세청에서 명단을 받아 자동으로 반영, 환급해드려요.
-                </p>
-              </div>
-            </div>
+            <ul className="box-border content-stretch flex flex-col font-['Pretendard'] font-normal items-start justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-[#6b7684] text-[17px] text-left w-full lg:w-[959px] space-y-[6px]">
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">부가세(VAT) 10% 별도</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">호스팅사를 통해 가입할 경우, 호스팅사 정책에 따라 적용돼요.</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">간편결제 서비스 추가수수료는 각 간편결제사의 정책에 따라 달라질 수 있어요.</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6] break-words">영 · 중소 카드 수수료율 우대 혜택 : 신규 사업자는 가입 시 '일반' 등급으로 적용되고, 매년 1・7월 국세청에서 명단을 받아 자동으로 반영, 환급해드려요.</span></li>
+            </ul>
           </div>
         </PageSection>
 
@@ -351,23 +340,13 @@ export default function Usingcost() {
                 </div>
               </div>
             </div>
-            <div className="box-border content-stretch flex flex-col font-['Pretendard'] font-normal items-start justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-[#6b7684] text-[20px] text-left w-full lg:w-[959px]">
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 부가세(VAT) 10% 별도</p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 상점 결제통화 : USD (EUR, JPY, HKD, GBP, AUD, SGD 지원예정)</p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 정산통화 : KRW (USD 지원 예정)</p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 정산주기 : 기본 주정산 + 4일 (일요일 기준으로 4영업일 뒤 지급)</p>
-              </div>
-              <div className="relative shrink-0 w-full">
-                <p className="block leading-[1.6]">＊ 페이팔은 결제취소 발생 시 원 거래수수료가 반환되지 않아요.</p>
-              </div>
-            </div>
+            <ul className="box-border content-stretch flex flex-col font-['Pretendard'] font-normal items-start justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-[#6b7684] text-[17px] text-left w-full lg:w-[959px] space-y-[6px]">
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">부가세(VAT) 10% 별도</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">상점 결제통화 : USD (EUR, JPY, HKD, GBP, AUD, SGD 지원예정)</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">정산통화 : KRW (USD 지원 예정)</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">정산주기 : 기본 주정산 + 4일 (일요일 기준으로 4영업일 뒤 지급)</span></li>
+              <li className="relative pl-[18px]"><span className="absolute left-0 top-[1em]">＊</span><span className="leading-[1.6]">페이팔은 결제취소 발생 시 원 거래수수료가 반환되지 않아요.</span></li>
+            </ul>
           </div>
         </PageSection>
       </PageContainer>
