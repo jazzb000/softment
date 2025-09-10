@@ -342,7 +342,7 @@ export default function Signin() {
             <LoginButton
               onClick={handleSignUp}
               disabled={!isFormValid}
-              className="order-1 md:order-2 w-full h-[48px] md:w-auto"
+              className="order-1 md:order-2 w-full h-[54px] md:w-auto"
             >
               계정 만들기
             </LoginButton>

@@ -25,7 +25,7 @@ export function ExperienceButton({
 
   return (
     <div 
-      className={`relative rounded-[12px] shrink-0 w-[121px] h-[49px] transition-all duration-200 ease-in-out ${
+      className={`relative rounded-[12px] shrink-0 w-[121px] transition-all duration-200 ease-in-out${
         disabled ? 'cursor-not-allowed opacity-70' : 'cursor-pointer'
       } ${className}`}
       style={{ backgroundColor: getBackgroundColor() }}
@@ -37,9 +37,9 @@ export function ExperienceButton({
       onMouseDown={() => !disabled && setIsActive(true)}
       onMouseUp={() => setIsActive(false)}
     >
-      <div className="flex items-center justify-center relative size-full px-[14px] py-[11px]" onClick={disabled ? undefined : onClick}>
-        <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[17px] text-nowrap">
-          <p className="block leading-[1.5] whitespace-pre">{children}</p>
+      <div className="flex items-center justify-center relative w-full px-[14px] py-[10px]" onClick={disabled ? undefined : onClick}>
+        <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[#ffffff] text-[17px] text-nowrap">
+          <p className="block leading-[2] whitespace-pre">{children}</p>
         </div>
       </div>
     </div>

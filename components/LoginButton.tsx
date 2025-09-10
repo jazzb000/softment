@@ -49,7 +49,7 @@ export function LoginButton({
   const resolvedBackground = disabled
     ? '#3182F6B2'
     : isEffectivelyHovered
-      ? (hoverBackgroundColor ?? '#2272EB')
+      ? (hoverBackgroundColor ?? '#2263BA')
       : (backgroundColor ?? '#3182f6');
   const resolvedTextColor = disabled
     ? '#ffffff'
@@ -76,9 +76,9 @@ export function LoginButton({
         relative 
         rounded-[10px] 
         shrink-0
-        transition-colors 
+        transition-colors transform 
         duration-[200ms] 
-        ease-in-out
+        ease-in-out active:scale-[0.96]
         ${className}
       `}
       style={{ backgroundColor: resolvedBackground }}

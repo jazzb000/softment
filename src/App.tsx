@@ -177,14 +177,14 @@ export default function Login() {
                 <LoginButton
                   onClick={handleLogin}
                   disabled={!isFormValid}
-                  className="order-1 md:order-2 w-full h-[48px] md:w-auto"
+                  className="order-1 md:order-2 w-full h-[54px] md:w-auto"
                 >
                   로그인
                 </LoginButton>
                 {/* 모바일 전용 회원가입 버튼 (로그인 버튼 스타일 적용) */}
                 <LoginButton
                   onClick={() => router.push('/signin')}
-                  className="order-2 md:hidden w-full h-[48px]"
+                  className="order-2 md:hidden w-full h-[54px]"
                   backgroundColor="#F2F4F6"
                   hoverBackgroundColor="#001D3A2E"
                   textColor="#4e5968"
