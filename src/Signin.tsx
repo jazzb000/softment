@@ -293,7 +293,18 @@ export default function Signin() {
                 onToggle={() => setAgreements(prev => ({ ...prev, required: !prev.required }))}
               />
               <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[14px] text-left text-nowrap">
-                <p className="block leading-[1.6] whitespace-pre">[필수] 개인정보 수집 및 이용동의</p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                  }}
+                  className="hover:font-medium active:font-medium"
+                >
+                  <span className="align-middle">[필수] 개인정보 수집 및 이용동의</span>
+                </a>
               </div>
             </div>
             
