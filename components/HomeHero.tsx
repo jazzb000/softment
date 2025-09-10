@@ -16,7 +16,7 @@ export default function HeroSection() {
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">
                     쉽고 빠른 PG 연동
                     <br aria-hidden="true" />
-                    토스페이먼츠
+                    소프트먼트
                   </p>
                 </div>
                 <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#6b7684] text-base lg:text-[20px] tracking-[-0.2px]">

@@ -503,7 +503,7 @@ export default function App() {
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex items-center justify-start min-h-px relative shrink-0">
                         <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
-                          <p className="leading-[1.6] lg:whitespace-pre">{feature}</p>
+                          <p className="leading-[1.6] max-w-[230px] lg:max-w-none lg:whitespace-pre">{feature}</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 grow lg:h-8 h-6 min-h-px min-w-px shrink-0" />

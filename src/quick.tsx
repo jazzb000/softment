@@ -230,16 +230,16 @@ export default function App() {
               </div>
 
               {/* Stats */}
-              <div className="box-border content-stretch flex flex-row gap-6 lg:gap-[24px] items-start justify-start p-0 relative shrink-0 w-full">
+              <div className="box-border content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[24px] items-start justify-start p-0 relative shrink-0 w-full">
                 {/* Stat 1 */}
-                <div className="basis-0 box-border content-stretch flex flex-col gap-[4px] grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left">
+                <div className="w-full lg:basis-0 box-border content-stretch flex flex-col gap-[4px] lg:grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left">
                   <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#8b95a1] text-sm text-nowrap">
                     <p className="block leading-[1.6] whitespace-pre">
                       더 높은 이유
                     </p>
                   </div>
                   <div
-                    className="font-['Pretendard'] font-bold min-w-full relative shrink-0 text-[#3182f6] text-4xl lg:text-[56px] tracking-[-0.56px]"
+                    className="font-['Pretendard'] font-bold min-w-full relative shrink-0 text-[#3182f6] text-[48px] lg:text-[56px] tracking-[-0.56px]"
                     style={{ width: "min-content" }}
                   >
                     <p className="block leading-[1.3]">
@@ -251,7 +251,7 @@ export default function App() {
                 </div>
 
                 {/* Stats 2 & 3 */}
-                <div className="basis-0 box-border content-stretch flex flex-row gap-6 lg:gap-[24px] grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
+                <div className="w-full lg:basis-0 box-border content-stretch flex flex-row gap-6 lg:gap-[24px] lg:grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
                   <div className="basis-0 box-border content-stretch flex flex-col gap-[4px] grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left">
                     <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#8b95a1] text-sm text-nowrap">
                       <p className="block leading-[1.6] whitespace-pre">

@@ -40,7 +40,7 @@ export default function AllServicesSection() {
     <div className="w-full flex flex-col gap-10 lg:gap-[64px]">
       <div className="w-full">
         <h2 className="font-['Pretendard'] font-bold text-[#333d4b] text-3xl lg:text-[48px] leading-[1.3] text-left lg:text-center break-words">
-          토스페이먼츠
+          소프트먼트
           <br aria-hidden="true" />
           전체 서비스 모아보기
         </h2>

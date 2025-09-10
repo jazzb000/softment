@@ -143,7 +143,7 @@ export default function Customerservice() {
       {/* Hero Section */}
       <div className="bg-[#f2f4f6] relative shrink-0 w-full">
         <div className="flex flex-row items-center relative size-full">
-          <PageContainer className="pt-24 pb-8">
+          <PageContainer className="pt-[114px] pb-[54px]">
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full gap-8 lg:gap-0">
               {/* Hero Text */}
               <div className="box-border content-stretch flex flex-col gap-5 md:gap-6 lg:gap-[24px] h-auto md:h-auto lg:h-[400px] items-start justify-center p-0 relative shrink-0 text-left w-full md:w-auto">
@@ -252,15 +252,15 @@ export default function Customerservice() {
       </div>
 
       {/* Body */}
-      <PageSection spacing="md" id="faq">
+      <PageSection id="faq" spacing="none" className="w-full lg:py-16">
         <PageContainer>
-          <div className="flex flex-col gap-2 w-full">
+          <div className="flex flex-col gap-0 md:gap-2 w-[100vw] max-w-[100vw] -mx-4 overflow-x-hidden sm:w-full sm:max-w-none sm:mx-0">
             {/* Tab */}
             <TabNavigation 
               tabs={tabs} 
               defaultActiveTab="전체"
               onTabChange={handleTabChange}
-              className="w-full overflow-x-auto"
+              className="w-full"
             />
 
             {/* FAQ List */}

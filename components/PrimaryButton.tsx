@@ -40,13 +40,13 @@ export function PrimaryButton({
 
   return (
     <div 
-      className={`box-border content-stretch flex flex-row items-center justify-center px-[16px] py-[13px] relative rounded-[14px] shrink-0 transition-colors duration-200 ease-in-out ${disabled ? 'cursor-not-allowed' : 'cursor-pointer'} ${className}`}
+      className={`box-border content-stretch flex flex-row items-center justify-center px-[16px] py-[10px] relative rounded-[14px] shrink-0 transition-colors duration-200 ease-in-out ${disabled ? 'cursor-not-allowed' : 'cursor-pointer'} ${className}`}
       style={{ backgroundColor: getBackgroundColor() }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
-      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[19px] text-left text-nowrap">
+      <div className="font-['Pretendard'] font-semibold  not-italic relative shrink-0 text-[#ffffff] text-[19px] text-left ">
         <p className="block leading-[1.6] whitespace-pre">{children}</p>
       </div>
     </div>

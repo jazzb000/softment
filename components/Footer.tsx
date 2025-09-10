@@ -182,27 +182,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row items-center justify-start p-[0px] relative shrink-0"
               data-name="기본약관"
             >
-              <div
-                className="relative shrink-0 size-[24px]"
-                data-name="Arrow / Caret_Down_MD"
-              >
-                <svg
-                  className="block size-full"
-                  fill="none"
-                  preserveAspectRatio="none"
-                  viewBox="0 0 24 24"
-                >
-                  <g>
-                    <path
-                      d="M17 9.5L12 14.5L7 9.5"
-                      stroke="var(--stroke-0, #B0B8C1)"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                    />
-                  </g>
-                </svg>
-              </div>
+              
               <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre-wrap">소프트먼트 기본약관</p>
               </div>

@@ -55,12 +55,22 @@ export function Checkbox({
       onKeyDown={handleKeyDown}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onPointerDown={() => setIsHovered(true)}
+      onPointerUp={() => setIsHovered(false)}
+      onPointerCancel={() => setIsHovered(false)}
+      onPointerLeave={() => setIsHovered(false)}
+      onTouchStart={() => setIsHovered(true)}
+      onTouchEnd={() => setIsHovered(false)}
+      onTouchCancel={() => setIsHovered(false)}
+      onBlur={() => setIsHovered(false)}
       className={`relative rounded shrink-0 ${className}`}
       style={{
         width: `${size}px`,
         height: `${size}px`,
         backgroundColor,
         border: `1.5px solid ${borderColor}`,
+        WebkitTapHighlightColor: 'transparent',
+        outline: 'none',
       }}
     >
       {checked && (
