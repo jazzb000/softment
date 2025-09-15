@@ -51,10 +51,10 @@ export function ActionButton({
       onClick={handleClick}
     >
       <div 
-        className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 Action-[20px] Action-left text-nowrap tracking-[-0.2px] transition-colors duration-200 ease-in-out"
+        className="font-normal not-italic relative shrink-0 Action-[20px] Action-left text-nowrap tracking-[-0.2px] transition-colors duration-200 ease-in-out"
         style={{ color: getTextColor() }}
       >
-        <p className="adjustLetterSpacing block leading-[1.5] whitespace-pre">{children}</p>
+        {children}
       </div>
       <div className="relative shrink-0 size-[20px]">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 20 20">

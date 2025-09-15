@@ -5,7 +5,7 @@ function PrimaryButton({ href, children }: { href: Route; children: React.ReactN
   return (
     <Link
       href={href}
-      className="box-border content-stretch flex items-center justify-center px-[12px] py-[9px] rounded-[10px] bg-[#3182f6] text-white font-['Pretendard'] font-semibold text-[16px] lg:text-[18px] leading-[1.5] cursor-pointer transition-colors duration-200 hover:bg-[#2272EB]"
+      className="box-border content-stretch flex items-center justify-center px-[12px] py-[9px] rounded-[10px] bg-[#3182f6] text-white font-semibold text-[16px] lg:text-[18px] leading-[1.5] cursor-pointer transition-colors duration-200 hover:bg-[#2272EB]"
     >
       {children}
     </Link>
@@ -16,7 +16,7 @@ function SecondaryButton({ href, children }: { href: Route; children: React.Reac
   return (
     <Link
       href={href}
-      className="box-border content-stretch flex items-center justify-center px-[12px] py-[9px] rounded-[10px] bg-[rgba(100,168,255,0.15)] text-[#3182f6] font-['Pretendard'] font-semibold text-[16px] lg:text-[18px] leading-[1.5] cursor-pointer transition-colors duration-200 hover:bg-[rgba(100,168,255,0.34)]"
+      className="box-border content-stretch flex items-center justify-center px-[12px] py-[9px] rounded-[10px] bg-[rgba(100,168,255,0.15)] text-[#3182f6] font-semibold text-[16px] lg:text-[18px] leading-[1.5] cursor-pointer transition-colors duration-200 hover:bg-[rgba(100,168,255,0.34)]"
     >
       {children}
     </Link>
@@ -51,13 +51,13 @@ export default function MainServicesSection() {
               <div className="flex flex-col gap-6 h-auto lg:h-[500px] lg:gap-[24px]">
                 <div className="flex flex-col gap-[10px]">
                   <div className="bg-[rgba(78,89,104,0.16)] w-11 inline-flex items-center justify-center px-[8px] py-[4px] rounded-[10px]">
-                    <span className="font-['Pretendard'] font-bold text-[12px] text-[#4e5968]">기본</span>
+                    <span className="font-bold text-[12px] text-[#4e5968]">기본</span>
                   </div>
-                  <h3 className="font-['Pretendard'] font-bold text-[#333d4b] text-2xl lg:text-[32px] leading-[1.3]">
+                  <h3 className="font-bold text-[#333d4b] text-2xl lg:text-[32px] leading-[1.3]">
                     개발자 없이 운영하는<br />결제 관리
                   </h3>
                 </div>
-                <p className="font-['Pretendard'] text-[#4e5968] text-base lg:text-[20px] leading-[1.6]">
+                <p className="text-[#4e5968] text-base lg:text-[20px] leading-[1.6]">
                   구매자가 보는 주문서 화면에 결제위젯으로<br className="hidden lg:block"/> 결제수단 관리와 프로모션, 혜택 노출 여부 등 <br className="hidden lg:block"/> 개발자 없이도 어드민에서 쉽게 설정할 수 있어요.
                 </p>
                 <div className="flex gap-3">
@@ -75,10 +75,10 @@ export default function MainServicesSection() {
           <div className="bg-white rounded-[20px] w-full overflow-hidden h-[500px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-[24px] p-6 lg:p-[40px] items-start">
               <div className="flex flex-col gap-6 lg:gap-[24px]">
-                <h3 className="font-['Pretendard'] font-bold text-[#333d4b] text-2xl lg:text-[32px] leading-[1.3]">
+                <h3 className="font-bold text-[#333d4b] text-2xl lg:text-[32px] leading-[1.3]">
                   3주 만에 만드는<br />우리 회사 간편결제
                 </h3>
-                <p className="font-['Pretendard'] text-[#4e5968] text-base lg:text-[20px] leading-[1.6]">
+                <p className="text-[#4e5968] text-base lg:text-[20px] leading-[1.6]">
                   6개월 이상 걸리는 개발을 단 3주 만에! 우리 회사에 최적화된 간편결제로 편리한 재구매와 높은 결제 전환율을 만들어보세요.
                 </p>
                 <div className="flex gap-3">
@@ -97,10 +97,10 @@ export default function MainServicesSection() {
           <div className="bg-white rounded-[20px] w-full overflow-hidden h-[500px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-[24px] p-6 lg:p-[40px] items-start">
               <div className="flex flex-col gap-6 lg:gap-[24px]">
-                <h3 className="font-['Pretendard'] font-bold text-[#333d4b] text-2xl lg:text-[32px] leading-[1.3]">
+                <h3 className="font-bold text-[#333d4b] text-2xl lg:text-[32px] leading-[1.3]">
                   계좌 등록 한 번이면 끝나는<br />빠른 계좌이체
                 </h3>
-                <p className="font-['Pretendard'] text-[#4e5968] text-base lg:text-[20px] leading-[1.6]">
+                <p className="text-[#4e5968] text-base lg:text-[20px] leading-[1.6]">
                   한 번 계좌를 등록하면 비밀번호로 결제가 가능한 퀵계좌이체로 낮은 수수료와 높은 매출을 경험해 보세요.
                 </p>
                 <div className="flex gap-3">

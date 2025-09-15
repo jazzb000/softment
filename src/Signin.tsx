@@ -157,7 +157,7 @@ export default function Signin() {
           className="box-border content-stretch flex flex-row h-[138px] items-start justify-start overflow-clip pb-[24px] pt-[40px] px-[0px] relative shrink-0 w-full"
           data-name="로그인"
         >
-          <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[24px] text-left text-nowrap">
+          <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[24px] text-left text-nowrap">
             <p className="block leading-[1.6] whitespace-pre">회원가입</p>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function Signin() {
           <div className="box-border content-stretch flex flex-col items-start justify-start p-[0px] relative shrink-0 w-full">
             {/* FieldLabel */}
             <div className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">이메일 주소</p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function Signin() {
           {/* Password Field */}
           <div className="box-border content-stretch flex flex-col items-start justify-start p-[0px] relative shrink-0 w-full">
             <div className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">비밀번호</p>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function Signin() {
           {/* Confirm Password Field */}
           <div className="box-border content-stretch flex flex-col items-start justify-start p-[0px] relative shrink-0 w-full">
             <div className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">비밀번호 확인</p>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function Signin() {
           {/* Name Field */}
           <div className="box-border content-stretch flex flex-col items-start justify-start p-[0px] relative shrink-0 w-full">
             <div className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">이름</p>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function Signin() {
           {/* Phone Field */}
           <div className="box-border content-stretch flex flex-col items-start justify-start p-[0px] relative shrink-0 w-full">
             <div className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">휴대폰 번호</p>
               </div>
             </div>
@@ -267,10 +267,10 @@ export default function Signin() {
               className="box-border content-stretch flex flex-row items-center justify-start leading-[0] not-italic px-[0px] py-[6px] relative shrink-0 text-left text-nowrap w-full"
               data-name="비밀번호"
             >
-              <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#4e5968] text-[15px]">
+              <div className="font-medium relative shrink-0 text-[#4e5968] text-[15px]">
                 <p className="block leading-[1.6] text-nowrap whitespace-pre">추천인 코드</p>
               </div>
-              <div className="font-['Pretendard'] font-normal relative shrink-0 text-[#b0b8c1] text-[14px]">
+              <div className="font-normal relative shrink-0 text-[#b0b8c1] text-[14px]">
                 <p className="block leading-[1.6] text-nowrap whitespace-pre">(선택)</p>
               </div>
             </div>
@@ -292,7 +292,7 @@ export default function Signin() {
                 checked={agreements.required}
                 onToggle={() => setAgreements(prev => ({ ...prev, required: !prev.required }))}
               />
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[14px] text-left text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[14px] text-left text-nowrap">
                 <a
                   href="#"
                   target="_blank"
@@ -320,7 +320,7 @@ export default function Signin() {
                 />
               </div>
               <div
-                className="box-border content-stretch flex flex-col font-['Pretendard'] font-normal items-start justify-start leading-[0] not-italic p-[0px] relative text-[#4e5968] text-[14px] text-left w-full"
+                className="box-border content-stretch flex flex-col font-normal items-start justify-start leading-[0] not-italic p-[0px] relative text-[#4e5968] text-[14px] text-left w-full"
                 data-name="텍스트"
               >
                 <div className="relative shrink-0 w-full">
@@ -349,7 +349,7 @@ export default function Signin() {
 
             {/* LoginLink (모바일: 버튼 아래 오른쪽 정렬) */}
             <div
-              className="order-2 md:order-1 box-border content-stretch flex flex-row font-['Pretendard'] font-normal gap-[8px] items-center w-full md:w-auto justify-end md:justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-left"
+              className="order-2 md:order-1 box-border content-stretch flex flex-row font-normal gap-[8px] items-center w-full md:w-auto justify-end md:justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-left"
               data-name="회원가입, 비밀번호찾기 버튼"
             >
               <div className="relative shrink-0 text-[#4e5968] text-[14px]">

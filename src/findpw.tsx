@@ -40,7 +40,7 @@ export default function Findpw() {
           className="box-border content-stretch flex flex-row items-start justify-start overflow-clip pb-0 pt-[40px] px-0 relative shrink-0 w-full"
           data-name="로그인"
         >
-          <div className="basis-0 font-['Pretendard'] font-bold grow leading-[1.3] min-h-px min-w-px not-italic relative shrink-0 text-[#333d4b] text-[32px] text-left">
+          <div className="basis-0 font-bold grow leading-[1.3] min-h-px min-w-px not-italic relative shrink-0 text-[#333d4b] text-[32px] text-left">
             <p className="block mb-0">
               소프트먼트 계정의
               <br aria-hidden="true" />
@@ -65,7 +65,7 @@ export default function Findpw() {
               className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-0 py-[6px] relative shrink-0 w-full"
               data-name="이메일 주소"
             >
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">임시 비밀번호를 받을 이메일 계정을 입력해주세요.</p>
               </div>
             </div>

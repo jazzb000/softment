@@ -42,10 +42,10 @@ export function HeroSection() {
               {/* Hero Text */}
               <div className="box-border content-stretch flex flex-col lg:gap-[60px] gap-[30px] h-[380px] md:h-[400px] items-center md:items-start justify-center relative shrink-0 w-full">
                 <div className="box-border content-stretch flex flex-col gap-[16px] items-center md:items-start justify-center md:justify-start leading-[0] not-italic p-0 relative shrink-0 text-nowrap">
-                  <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#d1d6db] text-[20px]">
+                  <div className="font-medium relative shrink-0 text-[#d1d6db] text-[20px]">
                     <p className="leading-[1.6] text-nowrap whitespace-pre hidden md:block">결제위젯</p>
                   </div>
-                  <div className="font-['Pretendard'] font-bold leading-[1.3] relative shrink-0 text-[#ffffff] md:text-[48px] text-[28px] text-center md:text-left whitespace-pre">
+                  <div className="font-bold leading-[1.3] relative shrink-0 text-[#ffffff] md:text-[48px] text-[28px] text-center md:text-left whitespace-pre">
                     <p className="block mb-0">
                       <span
                         style={{ opacity: isFading ? 0 : 1, transition: "opacity 400ms ease" }}
@@ -68,7 +68,7 @@ export function HeroSection() {
               {/* Cards */}
               <div className="absolute box-border content-stretch flex gap-[24px] h-[780px] items-center justify-start left-[497px] p-0 top-[180px] w-[879px]">
                 <div className="basis-0 bg-[#ffffff] box-border content-stretch flex flex-col grow h-full items-center justify-center min-h-px min-w-px overflow-clip p-0 relative rounded-[20px] shrink-0">
-                  <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#3182f6] text-[20px] text-nowrap tracking-[-0.2px]">
+                  <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#3182f6] text-[20px] text-nowrap tracking-[-0.2px]">
                     <p className="adjustLetterSpacing block leading-[1.5] whitespace-pre">화면 디자인</p>
                   </div>
                 </div>

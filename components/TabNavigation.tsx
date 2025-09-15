@@ -75,7 +75,7 @@ export function TabNavigation({
               onMouseLeave={handleTabMouseLeave}
             >
               <div 
-                className={`font-['Pretendard'] ${isActive ? 'font-bold' : 'font-semibold'} leading-[0] not-italic relative shrink-0 text-[15px] text-left text-nowrap`}
+                className={`${isActive ? 'font-bold' : 'font-semibold'} leading-[0] not-italic relative shrink-0 text-[15px] text-left text-nowrap`}
                 style={{ color: textColor }}
               >
                 <p className="block leading-[1.45] whitespace-pre">{tab}</p>

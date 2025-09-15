@@ -19,7 +19,7 @@ export default function Navigation() {
           </div>
           {leftMenuItems.map((item, index) => (
             <div key={index} className="box-border content-stretch flex items-center justify_center px-[10px] py-[6px] relative shrink-0">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-nowrap">
                 <p className="leading-[1.5] whitespace-pre">{item}</p>
               </div>
             </div>
@@ -28,7 +28,7 @@ export default function Navigation() {
         <div className="content-stretch flex h-[33px] items-center justify-start relative shrink-0">
           {rightMenuItems.map((item, index) => (
             <div key={index} className="box-border content-stretch flex items-center justify_center px-[10px] py-[6px] relative shrink-0">
-              <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-nowrap">
+              <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-nowrap">
                 <p className="leading-[1.5] whitespace-pre">{item}</p>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function Navigation() {
             onMouseEnter={() => setIsApplyHovered(true)}
             onMouseLeave={() => setIsApplyHovered(false)}
           >
-            <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[14px] leading-[1.4] text-nowrap">
+            <div className="font-semibold not-italic relative shrink-0 text-[14px] leading-[1.4] text-nowrap">
               <p className="whitespace-pre">이용 신청하기</p>
             </div>
           </div>

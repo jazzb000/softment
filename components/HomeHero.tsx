@@ -12,14 +12,14 @@ export default function HeroSection() {
           <div className="content-stretch flex gap-6 lg:gap-[24px] h-auto lg:h-[680px] items-center justify-start relative shrink-0 w-full lg:w-[976px]">
             <div className="basis-0 content-stretch flex flex-col gap-[40px] grow h-full items-center lg:items-start justify-center min-h-px min-w-px relative shrink-0">
               <div className="content-stretch flex flex-col gap-[24px] items-start text-center lg:text-left justify-start leading-[0] not-italic relative shrink-0">
-                <div className="font-['Pretendard'] font-bold relative shrink-0 text-[#191f28] text-3xl lg:text-[48px]">
+                <div className="font-bold relative shrink-0 text-[#191f28] text-3xl lg:text-[48px]">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">
                     쉽고 빠른 PG 연동
                     <br aria-hidden="true" />
                     소프트먼트
                   </p>
                 </div>
-                <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#6b7684] text-base lg:text-[20px] tracking-[-0.2px]">
+                <div className="font-medium relative shrink-0 text-[#6b7684] text-base lg:text-[20px] tracking-[-0.2px]">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">
                     고객이 원했던 온라인 결제의 모든 것.
                     <br aria-hidden="true" />
@@ -36,7 +36,7 @@ export default function HeroSection() {
                   onMouseEnter={() => setIsApplyHovered(true)}
                   onMouseLeave={() => setIsApplyHovered(false)}
                 >
-                  <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[18px] leading-[1.5] text-nowrap">
+                  <div className="font-semibold not-italic relative shrink-0 text-[18px] leading-[1.5] text-nowrap">
                     <p className="whitespace-pre">이용 신청하기</p>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ export default function HeroSection() {
                   onMouseEnter={() => setIsInquiryHovered(true)}
                   onMouseLeave={() => setIsInquiryHovered(false)}
                 >
-                  <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[18px] leading-[1.5] text-nowrap">
+                  <div className="font-semibold not-italic relative shrink-0 text-[18px] leading-[1.5] text-nowrap">
                     <p className="whitespace-pre">도입 문의</p>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function HeroSection() {
             </div>
             <div className="absolute hidden lg:flex content-stretch gap-[24px] h-[780px] items-center justify-start left-[497.5px] top-[180px] w-[879px]">
               <div className="basis-0 bg-white content-stretch flex flex-col grow h-full items-center justify-center min-h-px min-w-px overflow-clip relative rounded-[20px] shrink-0">
-                <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#3182f6] text-[20px] text-nowrap tracking-[-0.2px]">
+                <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#3182f6] text-[20px] text-nowrap tracking-[-0.2px]">
                   <p className="leading-[1.5] whitespace-pre">화면 디자인</p>
                 </div>
               </div>

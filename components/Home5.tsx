@@ -44,7 +44,7 @@ export default function MerchantCard({ title, images, layout = 'grid' }: Merchan
       <div className="flex flex-col items-center overflow-clip relative size-full">
         <div className="box-border content-stretch flex flex-col gap-[16px] h-[300px] items-center justify-start p-[24px] relative w-full">
           <div className="content-stretch flex gap-[8px] items-center justify-start relative shrink-0">
-            <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[24px] text-nowrap">
+            <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[24px] text-nowrap">
               <p className="leading-[1.6] whitespace-pre">{title}</p>
             </div>
             <PlusIcon />

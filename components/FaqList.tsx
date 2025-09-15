@@ -63,12 +63,12 @@ export function FaqList({ items, onItemClick, className = "" }: FaqListProps) {
               {/* Question Row */}
               <div className="flex flex-col lg:flex-row items-start lg:items-center w-full">
                 <div className="px-4 lg:px-[16px] py-0 lg:py-[20px] w-full lg:w-[149px]">
-                  <p className="font-['Pretendard'] text-[14px] pt-[20px] lg:pt-0 lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap">
+                  <p className="text-[14px] pt-[20px] lg:pt-0 lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap">
                     {item.category}
                   </p>
                 </div>
                 <div className="px-4 lg:pr-[16px] py-0 pb-5 lg:pb-0 lg:py-[16px]">
-                  <p className="font-['Pretendard'] font-bold text-[16px] lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap break-words">
+                  <p className="font-bold text-[16px] lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap break-words">
                     {item.question}
                   </p>
                 </div>
@@ -79,13 +79,13 @@ export function FaqList({ items, onItemClick, className = "" }: FaqListProps) {
                 <div className="flex flex-col lg:flex-row items-start w-full pb-[20px] lg:pb-0 lg:pl-7 pl-0">
                   <div className="hidden lg:block lg:w-[149px]" />
                   <div className="px-4 lg:pr-[16px] py-3 lg:py-[16px] w-full">
-                    <p className="font-['Pretendard'] text-[15px] lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap break-words">
+                    <p className="text-[15px] lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap break-words">
                       {item.answer.text1}
                     </p>
-                    <p className="mt-2 font-['Pretendard'] text-[15px] lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap break-words">
+                    <p className="mt-2 text-[15px] lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap break-words">
                       {item.answer.text2}
                     </p>
-                    <p className="mt-1 font-['Pretendard'] font-extrabold text-[#3182f6] underline leading-[1.6]">
+                    <p className="mt-1 font-extrabold text-[#3182f6] underline leading-[1.6]">
                       {item.answer.link}
                     </p>
                   </div>

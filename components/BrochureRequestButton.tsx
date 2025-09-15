@@ -24,8 +24,8 @@ export function BrochureRequestButton({
         style={{ opacity: isHovered ? 0.27 : 0 }}
       />
       <div className="flex items-center justify-center relative w-full px-[14px] py-[10px]" onClick={onClick}>
-        <div className="font-['Pretendard'] font-semibold  text-[#FDFFFEE3] text-[17px] text-nowrap">
-          <p className="block leading-[2] whitespace-pre">{children}</p>
+        <div className="font-semibold  text-[#FDFFFEE3] text-[17px] text-nowrap">
+          {children}
         </div>
       </div>
     </div>

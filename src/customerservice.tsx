@@ -148,10 +148,10 @@ export default function Customerservice() {
               {/* Hero Text */}
               <div className="box-border content-stretch flex flex-col gap-5 md:gap-6 lg:gap-[24px] h-auto md:h-auto lg:h-[400px] items-start justify-center p-0 relative shrink-0 text-left w-full md:w-auto">
                 <div className="box-border content-stretch flex flex-col gap-2 md:gap-2 lg:gap-[6px] items-start justify-start leading-[0] not-italic p-0 relative shrink-0">
-                  <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#6b7684] text-base md:text-lg lg:text-xl">
+                  <div className="font-medium relative shrink-0 text-[#6b7684] text-base md:text-lg lg:text-xl">
                     <p className="block leading-[1.6] text-nowrap whitespace-pre">고객센터</p>
                   </div>
-                  <div className="font-['Pretendard'] font-bold relative shrink-0 text-[#333d4b] text-[28px] md:text-[36px] lg:text-[48px]">
+                  <div className="font-bold relative shrink-0 text-[#333d4b] text-[28px] md:text-[36px] lg:text-[48px]">
                     <p className="block leading-[1.3] text-nowrap whitespace-pre">무엇을 도와드릴까요?</p>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ export default function Customerservice() {
 
             {/* CTA Text */}
             <div className="flex flex-col gap-8 lg:gap-10 xl:gap-[40px] items-center justify-center text-center">
-              <div className="flex flex-col font-['Pretendard'] font-bold gap-4 lg:gap-6 xl:gap-[24px] items-center justify-start">
+              <div className="flex flex-col font-bold gap-4 lg:gap-6 xl:gap-[24px] items-center justify-start">
                 <div className="relative shrink-0 text-[#ffffff] text-2xl sm:text-[48px] px-4">
                   <p className="block leading-[1.3] whitespace-pre-wrap break-words">원하는 답변을 찾지 못하셨나요?</p>
                 </div>

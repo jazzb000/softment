@@ -37,7 +37,7 @@ export function QuestionIcon({ tooltipText }: QuestionIconProps) {
       {isHovered && (
         <div className="absolute left-1/2 top-[30px] z-50 transform -translate-x-1/2">
           <div className="bg-[#17171c] rounded-2xl shadow-[4px_4px_24px_0px_rgba(0,0,0,0.12)] px-[16px] py-[10px] relative w-[260px]">
-            <span className="font-['Pretendard'] font-normal leading-[1.6] not-italic text-[#ffffff] text-[15px] text-left tracking-[-0.15px] block" style={{ wordBreak: 'keep-all' }}>
+            <span className="font-normal leading-[1.6] not-italic text-[#ffffff] text-[15px] text-left tracking-[-0.15px] block" style={{ wordBreak: 'keep-all' }}>
               {tooltipText}
             </span>
             {/* Arrow pointing up */}

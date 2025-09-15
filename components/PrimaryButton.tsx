@@ -46,8 +46,8 @@ export function PrimaryButton({
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
-      <div className="font-['Pretendard'] font-semibold  not-italic relative shrink-0 text-[#ffffff] text-[19px] text-left ">
-        <p className="block leading-[1.6] whitespace-pre">{children}</p>
+      <div className="font-semibold  not-italic relative shrink-0 text-[#ffffff] text-[19px] text-left ">
+        {children}
       </div>
     </div>
   );

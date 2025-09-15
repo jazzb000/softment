@@ -102,16 +102,16 @@ export default function App() {
               <div className="aspect-[1695/1256] bg-center bg-cover bg-no-repeat w-full" style={{ backgroundImage: `url('${imgImage11}')` }} />
               <div className="w-full">
                 <div className="flex flex-col gap-4 lg:gap-6">
-                  <div className="font-['Pretendard'] font-bold text-[#191f28] text-2xl lg:text-3xl">
+                  <div className="font-bold text-[#191f28] text-2xl lg:text-3xl">
                     <p className="leading-[1.3] whitespace-pre-wrap break-words">그동안의 결제 고민들</p>
                   </div>
                   <div className="flex flex-col w-full gap-4 lg:gap-6">
-                    <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                    <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                       <p className="leading-[1.6] whitespace-pre-wrap break-words">
                         {`'직접 개발하면, 6개월이나 걸린다는데...'`}<br/>{`'간편결제, 하나씩 직접 연동하느라 몇 달을 고생했어요.'`}<br/>{`'결제 영역은 함부로 코드를 건드리기 무서워요.'`}<br/>{`'프로모션 운영에 개발 리소스가 너무 많이 들어요.'`}<br/>{`'갑자기 튀어나오는 PG사 결제창, 브랜드 이미지와 부딪혀요.'`}<br/>.<br/>.<br/>.
                       </p>
                     </div>
-                    <div className="font-['Pretendard'] font-bold text-[#191f28] text-2xl lg:text-3xl">
+                    <div className="font-bold text-[#191f28] text-2xl lg:text-3xl">
                       <p className="leading-[1.3] whitespace-pre-wrap break-words">위젯으로 모두 해결!</p>
                     </div>
                   </div>
@@ -126,17 +126,17 @@ export default function App() {
           <PageContainer className="py-20 lg:py-32">
             <div className="flex flex-col gap-10 lg:gap-16 justify-start w-full">
               <div className="flex flex-col gap-4 lg:gap-6 items-start text-left lg:items-center lg:text-center">
-                <div className="font-['Pretendard'] font-medium text-[#4e5968] text-xl lg:text-2xl">
+                <div className="font-medium text-[#4e5968] text-xl lg:text-2xl">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">위젯 어드민</p>
                 </div>
-                <div className="font-['Pretendard'] font-bold text-[#191f28] text-3xl lg:text-5xl">
+                <div className="font-bold text-[#191f28] text-3xl lg:text-5xl">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">5분만에 만드는 최적의 결제 경험</p>
                 </div>
               </div>
               <div className="aspect-[540/400] bg-[#f2f4f6] relative rounded-[20px] shrink-0 w-full">
                 <div className="flex flex-col items-center justify-center overflow-clip relative size-full">
                   <div className="aspect-[540/400] box-border content-stretch flex flex-col gap-12 items-center justify-center px-11 py-9 relative size-full">
-                    <div className="font-['Pretendard'] font-normal text-[#3182f6] text-lg lg:text-xl tracking-[-0.2px]">
+                    <div className="font-normal text-[#3182f6] text-lg lg:text-xl tracking-[-0.2px]">
                       <p className="leading-[1.5] whitespace-pre">화면 디자인</p>
                     </div>
                   </div>
@@ -146,10 +146,10 @@ export default function App() {
                 {widgetFeatures.map((item, i) => (
                   <div key={i} className="w-full">
                     <div className="flex flex-col gap-4 lg:gap-6 w-full">
-                      <div className="font-['Pretendard'] font-bold text-[#333d4b] text-xl lg:text-2xl">
+                      <div className="font-bold text-[#333d4b] text-xl lg:text-2xl">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.title}</p>
                       </div>
-                      <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg">
+                      <div className="font-medium text-[#4e5968] text-base lg:text-lg">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.desc}</p>
                       </div>
                     </div>
@@ -165,10 +165,10 @@ export default function App() {
           <PageContainer className="py-20 lg:py-32">
             <div className="flex flex-col gap-10 lg:gap-16 items-start justify-start w-full">
               <div className="flex flex-col gap-4 lg:gap-6 items-start text-left lg:items-center lg:text-center justify-start w-full">
-                <div className="font-['Pretendard'] font-medium text-[#4e5968] text-xl lg:text-2xl">
+                <div className="font-medium text-[#4e5968] text-xl lg:text-2xl">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">쉬운 운영</p>
                 </div>
-                <div className="font-['Pretendard'] font-bold text-[#191f28] text-3xl lg:text-5xl">
+                <div className="font-bold text-[#191f28] text-3xl lg:text-5xl">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">이 모든 기능을 어드민으로 쉽게</p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function App() {
                     <div className="aspect-[540/400] bg-[#f2f4f6] relative rounded-[20px] w-full">
                       <div className="flex flex-col items-center justify-center overflow-clip relative size-full">
                         <div className="aspect-[540/400] flex flex-col gap-12 items-center justify-center px-11 py-9 relative size-full">
-                          <div className="font-['Pretendard'] font-normal text-[#3182f6] text-lg lg:text-xl tracking-[-0.2px]">
+                          <div className="font-normal text-[#3182f6] text-lg lg:text-xl tracking-[-0.2px]">
                             <p className="leading-[1.5] whitespace-pre">화면 디자인</p>
                           </div>
                         </div>
@@ -188,7 +188,7 @@ export default function App() {
                     </div>
                     <div className="w-full">
                       <div className="flex flex-col gap-4 lg:gap-6 w-full">
-                        <div className="font-['Pretendard'] font-bold text-2xl lg:text-3xl">
+                        <div className="font-bold text-2xl lg:text-3xl">
                           <p className="leading-[1.6]">
                             {feature.title.map((part, j) => (
                               <span key={j}>
@@ -200,7 +200,7 @@ export default function App() {
                             ))}
                           </p>
                         </div>
-                        <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                        <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                           <p className="leading-[1.6] whitespace-pre-wrap break-words">{feature.desc}</p>
                         </div>
                       </div>
@@ -218,10 +218,10 @@ export default function App() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start w-full">
               <div className="flex flex-col gap-10 lg:gap-16 items-start w-full">
                 <div className="flex flex-col gap-4 lg:gap-6 items-start">
-                  <div className="font-['Pretendard'] font-medium text-[#4e5968] text-xl lg:text-2xl">
+                  <div className="font-medium text-[#4e5968] text-xl lg:text-2xl">
                     <p className="leading-[1.6] whitespace-pre-wrap break-words">쉬운 연동</p>
                   </div>
-                  <div className="font-['Pretendard'] font-bold text-[#191f28] text-3xl lg:text-5xl">
+                  <div className="font-bold text-[#191f28] text-3xl lg:text-5xl">
                     <p className="leading-[1.3] whitespace-pre-wrap break-words">
                       개발자의 시간을
                       <br aria-hidden="true" />
@@ -230,7 +230,7 @@ export default function App() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-6 lg:gap-8 items-start w-full">
-                  <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                  <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                     <p className="leading-[1.6] whitespace-pre-wrap break-words">
                       쉽고 직관적인 API/SDK로 30분만에 끝,
                       <br aria-hidden="true" />
@@ -249,7 +249,7 @@ export default function App() {
                     onMouseLeave={() => setIntegrationDocHovered(false)}
                   >
                     <div className="flex items-center justify-center relative size-full px-4 lg:px-6 py-3">
-                      <div className="font-['Pretendard'] font-semibold text-[rgba(3,18,40,0.7)] text-base lg:text-lg">
+                      <div className="font-semibold text-[rgba(3,18,40,0.7)] text-base lg:text-lg">
                         <p className="leading-[1.5] whitespace-pre">연동 문서 보기</p>
                       </div>
                     </div>
@@ -273,7 +273,7 @@ export default function App() {
           <PageContainer className="py-[160px]">
             <div className="flex flex-col gap-12 lg:gap-16 items-center justify-start w-full">
               <div className="flex flex-col gap-6 lg:gap-8 items-start text-left lg:items-center lg:text-center justify-start w-full">
-                <div className="font-['Pretendard'] font-bold text-[#191f28] text-3xl lg:text-5xl">
+                <div className="font-bold text-[#191f28] text-3xl lg:text-5xl">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">
                     결제위젯을 사용하면
                     <br aria-hidden="true" />
@@ -286,19 +286,19 @@ export default function App() {
                       <div className="flex flex-col items-center justify-center overflow-clip relative h-full">
                         <div className="flex flex-col gap-6 lg:gap-8 items-center justify-center p-6 lg:p-8 relative w-full h-full">
                           <div className="flex flex-col gap-3 lg:gap-4 items-center justify-start">
-                            <div className="font-['Pretendard'] font-semibold text-[#333d4b] text-lg lg:text-xl text-center">
+                            <div className="font-semibold text-[#333d4b] text-lg lg:text-xl text-center">
                               <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.title}</p>
                             </div>
                             <div className="flex flex-col items-center justify-start text-center">
-                              <div className="font-['Pretendard'] font-bold text-[#333d4b] text-2xl lg:text-3xl">
+                              <div className="font-bold text-[#333d4b] text-2xl lg:text-3xl">
                                 <p className="leading-[1.3] whitespace-pre-wrap break-words">{item.cost}</p>
                               </div>
-                              <div className="font-['Pretendard'] font-medium text-[#4e5968] text-sm lg:text-base">
+                              <div className="font-medium text-[#4e5968] text-sm lg:text-base">
                                 <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.period}</p>
                               </div>
                             </div>
                           </div>
-                          <div className="font-['Pretendard'] font-semibold text-[#3182f6] text-base lg:text-lg text-center">
+                          <div className="font-semibold text-[#3182f6] text-base lg:text-lg text-center">
                             <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.action}</p>
                           </div>
                         </div>
@@ -308,10 +308,10 @@ export default function App() {
                 </div>
               </div>
               <div className="flex flex-col gap-2 lg:gap-3 items-center justify-start text-center">
-                <div className="font-['Pretendard'] font-bold text-[#3182f6] text-xl lg:text-2xl">
+                <div className="font-bold text-[#3182f6] text-xl lg:text-2xl">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">연 3,500만원 이상의 운영비용 절감</p>
                 </div>
-                <div className="font-['Pretendard'] font-medium text-[#6b7684] text-sm lg:text-base">
+                <div className="font-medium text-[#6b7684] text-sm lg:text-base">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">{`(* '개발자의 인건비'만 산정 / 주니어 개발자 평균연봉 약 5,000만원 기준)`}</p>
                 </div>
               </div>
@@ -324,10 +324,10 @@ export default function App() {
           <PageContainer className="py-[160px]">
             <div className="flex flex-col gap-12 lg:gap-16 justify-start w-full">
               <div className="flex flex-col gap-4 lg:gap-6 items-start text-left lg:items-center lg:text-center">
-                <div className="font-['Pretendard'] font-bold text-[#191f28] text-3xl lg:text-5xl ">
+                <div className="font-bold text-[#191f28] text-3xl lg:text-5xl ">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">두 가지 플랜으로 만나보세요</p>
                 </div>
-                <div className="font-['Pretendard'] font-medium text-[#4e5968] text-lg lg:text-xl">
+                <div className="font-medium text-[#4e5968] text-lg lg:text-xl">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">
                     무료로도 충분한 기능, 부담없이 시작할 수 있어요.
                   </p>
@@ -341,10 +341,10 @@ export default function App() {
                       <div className="flex flex-col items-start justify-between p-6 lg:p-8 relative h-full min-h-[300px] lg:min-h-[400px]">
                         <div className="flex flex-col gap-6 lg:gap-8 items-start justify-start w-full">
                           <div className="flex flex-col items-start justify-start w-full">
-                            <div className="font-['Pretendard'] font-medium text-[#2272eb] text-2xl lg:text-3xl">
+                            <div className="font-medium text-[#2272eb] text-2xl lg:text-3xl">
                               <p className="leading-[1.6] whitespace-pre-wrap break-words">Basic</p>
                             </div>
-                            <div className="font-['Pretendard'] font-semibold text-[#4e5968] text-lg lg:text-xl w-full">
+                            <div className="font-semibold text-[#4e5968] text-lg lg:text-xl w-full">
                               <p className="leading-[1.3] whitespace-pre-wrap break-words">모두에게 무료, 하지만 충분한 기능</p>
                             </div>
                           </div>
@@ -356,7 +356,7 @@ export default function App() {
                                     <path d={svgPaths.p3a153700} stroke="var(--stroke-0, #3182F6)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" />
                                   </svg>
                                 </div>
-                                <div className="font-['Pretendard'] font-medium text-[#333d4b] text-sm lg:text-base flex-1">
+                                <div className="font-medium text-[#333d4b] text-sm lg:text-base flex-1">
                                   <p className="leading-[1.6] whitespace-pre-wrap break-words">{feature}</p>
                                 </div>
                               </div>
@@ -386,10 +386,10 @@ export default function App() {
                       <div className="flex flex-col items-start justify-between p-6 lg:p-8 relative h-full min-h-[300px] lg:min-h-[400px]">
                         <div className="flex flex-col gap-6 lg:gap-8 items-start justify-start w-full">
                           <div className="flex flex-col items-start justify-start w-full">
-                            <div className="font-['Pretendard'] font-medium text-[#2272eb] text-2xl lg:text-3xl">
+                            <div className="font-medium text-[#2272eb] text-2xl lg:text-3xl">
                               <p className="leading-[1.6] whitespace-pre-wrap break-words">Pro</p>
                             </div>
-                            <div className="font-['Pretendard'] font-semibold text-[#4e5968] text-lg lg:text-xl w-full">
+                            <div className="font-semibold text-[#4e5968] text-lg lg:text-xl w-full">
                               <p className="leading-[1.3] whitespace-pre-wrap break-words">고급 커스텀과 데이터로 결제 경험 최적화</p>
                             </div>
                           </div>
@@ -401,7 +401,7 @@ export default function App() {
                                     <path d={svgPaths.p3a153700} stroke="var(--stroke-0, #3182F6)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" />
                                   </svg>
                                 </div>
-                                <div className="font-['Pretendard'] font-medium text-[#333d4b] text-sm lg:text-base flex-1">
+                                <div className="font-medium text-[#333d4b] text-sm lg:text-base flex-1">
                                   <p className="leading-[1.6] whitespace-pre-wrap break-words">{feature}</p>
                                 </div>
                               </div>
@@ -425,7 +425,7 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-                <div className="font-['Pretendard'] font-medium text-[#6b7684] text-sm lg:text-base lg:text-right text-center">
+                <div className="font-medium text-[#6b7684] text-sm lg:text-base lg:text-right text-center">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">* 결제 수수료는 별도로 부과됩니다.</p>
                 </div>
               </div>
@@ -438,7 +438,7 @@ export default function App() {
           <PageContainer className="py-[160px]">
             <div className="box-border content-stretch flex flex-col lg:gap-[32px] gap-[32px] items-center justify-start relative size-full">
               {/* 테이블 헤더 */}
-              <div className="content-stretch flex font-['Pretendard'] font-medium items-center leading-[0] not-italic relative shrink-0 lg:text-[24px] text-[24px] w-full">
+              <div className="content-stretch flex font-medium items-center leading-[0] not-italic relative shrink-0 lg:text-[24px] text-[24px] w-full">
                 <div className="flex-1 lg:grow-[2] relative shrink-0 text-[#333d4b]">
                   <p className="leading-[1.3]">플랜별 지원 기능</p>
                 </div>
@@ -458,7 +458,7 @@ export default function App() {
                   <div className="box-border content-stretch flex items-start justify-start px-0 py-3 relative shrink-0 w-full">
                     <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                     <div className="basis-0 content-stretch flex grow items-center justify-start min-h-px min-w-px relative shrink-0">
-                      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
+                      <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
                         <p className="leading-[1.6] lg:whitespace-pre">결제수단</p>
                       </div>
                     </div>
@@ -476,17 +476,17 @@ export default function App() {
                     <div key={i} className="box-border content-stretch flex items-start justify-start px-0 py-4 relative shrink-0 w-full">
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex items-center justify-start min-h-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] max-w-[230px] lg:max-w-none lg:whitespace-pre">{feature}</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
@@ -502,13 +502,13 @@ export default function App() {
                     <div key={i} className="box-border content-stretch flex items-start justify-start px-0 py-4 relative shrink-0 w-full">
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex items-center justify-start min-h-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] max-w-[230px] lg:max-w-none lg:whitespace-pre">{feature}</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 grow lg:h-8 h-6 min-h-px min-w-px shrink-0" />
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
@@ -522,7 +522,7 @@ export default function App() {
                   <div className="box-border content-stretch flex items-start justify-start px-0 py-3 relative shrink-0 w-full">
                     <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                     <div className="basis-0 content-stretch flex grow items-center justify-start min-h-px min-w-px relative shrink-0">
-                      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
+                      <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
                         <p className="leading-[1.6] lg:whitespace-pre">프로모션</p>
                       </div>
                     </div>
@@ -536,17 +536,17 @@ export default function App() {
                     <div key={i} className="box-border content-stretch flex items-start justify-start px-0 py-4 relative shrink-0 w-full">
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex items-center justify-start min-h-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">{feature}</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
@@ -561,13 +561,13 @@ export default function App() {
                     <div key={i} className="box-border content-stretch flex items-start justify-start px-0 py-4 relative shrink-0 w-full">
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex items-center justify-start min-h-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">{feature}</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 grow lg:h-8 h-6 min-h-px min-w-px shrink-0" />
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
@@ -581,7 +581,7 @@ export default function App() {
                   <div className="box-border content-stretch flex items-start justify-start px-0 py-3 relative shrink-0 w-full">
                     <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                     <div className="basis-0 content-stretch flex grow items-center justify-start min-h-px min-w-px relative shrink-0">
-                      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
+                      <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
                         <p className="leading-[1.6] lg:whitespace-pre">브랜드페이</p>
                       </div>
                     </div>
@@ -595,17 +595,17 @@ export default function App() {
                     <div key={i} className="box-border content-stretch flex items-start justify-start px-0 py-4 relative shrink-0 w-full">
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex items-center justify-start min-h-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">{feature}</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
@@ -619,7 +619,7 @@ export default function App() {
                   <div className="box-border content-stretch flex items-start justify-start px-0 py-3 relative shrink-0 w-full">
                     <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                     <div className="basis-0 content-stretch flex grow items-center justify-start min-h-px min-w-px relative shrink-0">
-                      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
+                      <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#b0b8c1] lg:text-[16px] text-[16px] lg:text-nowrap">
                         <p className="leading-[1.6] lg:whitespace-pre">프로모션</p>
                       </div>
                     </div>
@@ -633,12 +633,12 @@ export default function App() {
                     <div key={i} className="box-border content-stretch flex items-start justify-start px-0 py-4 relative shrink-0 w-full">
                       <div className="absolute border-[#e5e8eb] border-[0px_0px_1px] border-solid inset-0 pointer-events-none" />
                       <div className="flex-1 lg:grow-[2] content-stretch flex lg:gap-2 gap-1 items-center justify-start min-h-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">{item.text}</p>
                         </div>
                         {item.showBadge && (
                           <div className="bg-[#fdf2e1] box-border content-stretch flex gap-2.5 items-center justify-center lg:px-2 px-1 py-0.5 relative rounded-[999px] shrink-0">
-                            <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#db953e] lg:text-[12px] text-[10px] lg:text-nowrap">
+                            <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#db953e] lg:text-[12px] text-[10px] lg:text-nowrap">
                               <p className="leading-[1.6] lg:whitespace-pre">지원 예정</p>
                             </div>
                           </div>
@@ -646,7 +646,7 @@ export default function App() {
                       </div>
                       <div className="w-20 lg:flex-1 grow lg:h-8 h-6 min-h-px min-w-px shrink-0" />
                       <div className="w-20 lg:flex-1 content-stretch flex items-center justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
+                        <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[20px] text-[18px] lg:text-nowrap">
                           <p className="leading-[1.6] lg:whitespace-pre">O</p>
                         </div>
                       </div>
@@ -663,10 +663,10 @@ export default function App() {
           <PageContainer className="py-16 lg:py-24">
             <div className="flex flex-col gap-12 lg:gap-16 justify-start w-full">
               <div className="flex flex-col gap-4 lg:gap-6 items-start text-left lg:items-center lg:text-center">
-                <div className="font-['Pretendard'] font-medium text-[#4e5968] text-lg lg:text-xl">
+                <div className="font-medium text-[#4e5968] text-lg lg:text-xl">
                   <p className="leading-[1.6] whitespace-pre-wrap break-words">NEW</p>
                 </div>
-                <div className="font-['Pretendard'] font-bold text-[#191f28] text-3xl lg:text-5xl">
+                <div className="font-bold text-[#191f28] text-3xl lg:text-5xl">
                   <p className="leading-[1.3] whitespace-pre-wrap break-words">곧 출시될 새로운 기능</p>
                 </div>
               </div>
@@ -678,11 +678,11 @@ export default function App() {
                     <div className="flex flex-col gap-6 lg:gap-8 items-start justify-start p-6 lg:p-8 relative w-full h-full">
                       <div className="flex gap-3 lg:gap-4 items-center justify-start w-full">
                         <div className="bg-center bg-cover bg-no-repeat shrink-0 size-8 lg:size-10" style={{ backgroundImage: `url('${imgGraphIcon}')` }} />
-                        <div className="font-['Pretendard'] font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
+                        <div className="font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
                           <p className="leading-[1.3] whitespace-pre-wrap break-words">A/B 테스트로 전환율 최적화</p>
                         </div>
                       </div>
-                      <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                      <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">결제 UI에 따른 전환율 차이를 실험하고, 가장 효율적인 디자인을 적용할 수 있어요.</p>
                       </div>
                     </div>
@@ -703,11 +703,11 @@ export default function App() {
                             </svg>
                           </div>
                         </div>
-                        <div className="font-['Pretendard'] font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
+                        <div className="font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
                           <p className="leading-[1.3] whitespace-pre-wrap break-words">결제 데이터 리포트</p>
                         </div>
                       </div>
-                      <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                      <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">결제수단별 거래액, 결제 전환율 등 데이터 기반의 의사결정을 할 수 있는 인사이트를 제공해 드려요.</p>
                       </div>
                     </div>
@@ -740,11 +740,11 @@ export default function App() {
                             </g>
                           </svg>
                         </div>
-                        <div className="font-['Pretendard'] font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
+                        <div className="font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
                           <p className="leading-[1.3] whitespace-pre-wrap break-words">글로벌 결제수단 지원</p>
                         </div>
                       </div>
-                      <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                      <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">해외카드, 해외 간편결제(페이팔)를 별도 개발이나 연동 없이 클릭 한 번으로 쉽게 사용할 수 있어요.</p>
                       </div>
                     </div>
@@ -767,11 +767,11 @@ export default function App() {
                             </svg>
                           </div>
                         </div>
-                        <div className="font-['Pretendard'] font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
+                        <div className="font-semibold text-[rgba(2,9,19,0.91)] text-xl lg:text-2xl flex-1">
                           <p className="leading-[1.3] whitespace-pre-wrap break-words">조건별 결제창 노출 기능</p>
                         </div>
                       </div>
-                      <div className="font-['Pretendard'] font-medium text-[#4e5968] text-base lg:text-lg w-full">
+                      <div className="font-medium text-[#4e5968] text-base lg:text-lg w-full">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">국가/상품/고객 등 특정 노출 조건이나 상황에 따라, 각각 다른 결제창 UI를 노출하도록 설정할 수 있어요.</p>
                       </div>
                     </div>
@@ -802,14 +802,14 @@ export default function App() {
             
             <div className="box-border content-stretch flex flex-col lg:gap-[56px] gap-[24px] items-center justify-center p-0 relative shrink-0">
               <div className="box-border content-stretch flex flex-col lg:gap-[24px] gap-[12px] items-center justify-start leading-[0] not-italic p-0 relative shrink-0 text-[#ffffff] text-center lg:text-nowrap">
-                <div className="font-['Pretendard'] font-bold relative shrink-0 text-3xl lg:text-5xl">
+                <div className="font-bold relative shrink-0 text-3xl lg:text-5xl">
                   <p className="block leading-[1.3] lg:text-nowrap lg:whitespace-pre">
                     결제, 소프트먼트에 맡기고
                     <br aria-hidden="true" />
                     사업에만 집중하세요
                   </p>
                 </div>
-                <div className="font-['Pretendard'] font-semibold relative shrink-0 lg:text-[17px] text-[15px]">
+                <div className="font-semibold relative shrink-0 lg:text-[17px] text-[15px]">
                   <p className="block leading-[1.6] lg:text-nowrap lg:whitespace-pre">
                     온라인 사업을 시작하고 운영하는 어려운 과정에서
                     <br aria-hidden="true" />

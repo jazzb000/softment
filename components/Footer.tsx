@@ -26,7 +26,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row items-center justify-center pb-[5px] pt-[0px] px-[0px] relative shrink-0"
               data-name="카테고리"
             >
-              <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
+              <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[30px] whitespace-pre-wrap">안내</p>
               </div>
             </div>
@@ -34,7 +34,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-[30px] items-center justify-center p-[0px] relative shrink-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap">공지사항</p>
               </div>
             </div>
@@ -42,7 +42,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-[30px] items-center justify-center p-[0px] relative shrink-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap">자주 묻는 질문</p>
               </div>
             </div>
@@ -50,7 +50,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-[30px] items-center justify-center p-[0px] relative shrink-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap">구매안전서비스 이용 조회</p>
               </div>
             </div>
@@ -64,7 +64,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row items-center justify-center pb-[5px] pt-[0px] px-[0px] relative shrink-0"
               data-name="카테고리"
             >
-              <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
+              <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[30px] whitespace-pre-wrap">팀</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-[30px] items-center justify-center p-[0px] relative shrink-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap">회사소개</p>
               </div>
             </div>
@@ -80,7 +80,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-[30px] items-center justify-center p-[0px] relative shrink-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap">블로그</p>
               </div>
             </div>
@@ -88,7 +88,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-[30px] items-center justify-center p-[0px] relative shrink-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap">채용</p>
               </div>
             </div>
@@ -102,7 +102,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row items-center justify-center pb-[5px] pt-[0px] px-[0px] relative shrink-0"
               data-name="카테고리"
             >
-              <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
+              <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[30px] whitespace-pre-wrap">고객센터</p>
               </div>
             </div>
@@ -110,7 +110,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-auto items-center justify-start p-[0px] relative w-full min-w-0"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative min-w-[0px] w-full text-[#6b7684] text-[15px] text-left break-words">
+              <div className="font-normal leading-[0] not-italic relative min-w-[0px] w-full text-[#6b7684] text-[15px] text-left break-words">
                 <p className="block leading-[1.5] whitespace-pre-wrap">
                   운영시간: 평일 08:00 - 19:00 (점심시간 12:00~13:00 미운영 / 주말 및 공휴일 휴무)
                 </p>
@@ -120,7 +120,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-auto md:h-[30px] items-center justify-start p-[0px] relative shrink-0 w-full"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap md:whitespace-pre">전화: 1544-7772</p>
               </div>
             </div>
@@ -128,7 +128,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-auto md:h-[30px] items-center justify-start p-[0px] relative shrink-0 w-full"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap md:whitespace-pre">이메일: support@tosspayments.com</p>
               </div>
             </div>
@@ -136,7 +136,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-auto md:h-[30px] items-center justify-start p-[0px] relative shrink-0 w-full"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap md:whitespace-pre">결제오류 지원 바로가기</p>
               </div>
             </div>
@@ -144,7 +144,7 @@ export function Footer() {
               className="box-border content-stretch flex flex-row h-auto md:h-[30px] items-center justify-start p-[0px] relative shrink-0 w-full"
               data-name="목록"
             >
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.5] whitespace-pre-wrap md:whitespace-pre">1:1 채팅상담</p>
               </div>
             </div>
@@ -156,12 +156,12 @@ export function Footer() {
             className="box-border content-stretch flex flex-row items-center justify-start pb-[16px] pt-[0px] px-[0px] relative shrink-0 w-full"
             data-name="Copyright"
           >
-            <div className="font-['Pretendard'] font-normal leading-[0] relative shrink-0 text-[#000000] text-[15px] text-left md:text-nowrap [font-variation-settings:'CTGR'_0,_'wdth'_100,_'wght'_400]">
+            <div className="font-normal leading-[0] relative shrink-0 text-[#000000] text-[15px] text-left md:text-nowrap [font-variation-settings:'CTGR'_0,_'wdth'_100,_'wght'_400]">
               <p className="block leading-[1.6] whitespace-pre-wrap">Copyright ⓒ Softment. All Rights Reserved</p>
             </div>
           </div>
           <div className="box-border content-stretch flex flex-row gap-[2px] items-center justify-start p-[0px] relative shrink-0 w-full">
-            <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#8b95a1] text-[13px] text-left">
+            <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#8b95a1] text-[13px] text-left">
               <p className="block leading-[1.6] whitespace-pre-wrap sm:whitespace-pre">
                 사업자등록번호 : 704-87-01591 | 대표 : 장하윤, 정재훈
                 <br className="block" />
@@ -183,7 +183,7 @@ export function Footer() {
               data-name="기본약관"
             >
               
-              <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
+              <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[15px] text-left md:text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre-wrap">소프트먼트 기본약관</p>
               </div>
             </div>
@@ -197,7 +197,7 @@ export function Footer() {
                   className="box-border content-stretch flex flex-row h-[32px] items-start justify-start pl-[0px] pr-[0px] md:pr-[24px] pb-[0px] relative"
                   data-name="약관"
                 >
-                  <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[13px] text-left md:text-nowrap">
+                  <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[13px] text-left md:text-nowrap">
                     <p className="block leading-[18px] whitespace-pre-wrap">{termText}</p>
                   </div>
                 </div>

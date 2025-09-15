@@ -7,9 +7,9 @@ function ServiceItemCard({ title, subtitle }: Item) {
     <div className="w-full rounded-[20px] bg-white">
       <div className="flex flex-row items-center justify-between px-5 py-4">
         <div className="flex min-w-0 flex-col">
-          <p className="font-['Pretendard'] font-bold text-[#333d4b] text-base lg:text-[20px] leading-[1.6] break-words">{title}</p>
+          <p className="font-bold text-[#333d4b] text-base lg:text-[20px] leading-[1.6] break-words">{title}</p>
           {subtitle ? (
-            <p className="font-['Pretendard'] text-[#6b7684] text-sm lg:text-[14px] leading-[1.6] break-words">{subtitle}</p>
+            <p className="text-[#6b7684] text-sm lg:text-[14px] leading-[1.6] break-words">{subtitle}</p>
           ) : null}
         </div>
         <div className="ml-3 flex-shrink-0">
@@ -23,7 +23,7 @@ function ServiceItemCard({ title, subtitle }: Item) {
 function ServiceCategory({ title, items }: { title: string; items: Item[] }) {
   return (
     <section className="w-full">
-      <h3 className="font-['Pretendard'] font-bold text-[#333d4b] text-lg lg:text-[24px] leading-[1.6] mb-4 lg:mb-[16px] break-words">
+      <h3 className="font-bold text-[#333d4b] text-lg lg:text-[24px] leading-[1.6] mb-4 lg:mb-[16px] break-words">
         {title}
       </h3>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-[16px]">
@@ -39,7 +39,7 @@ export default function AllServicesSection() {
   return (
     <div className="w-full flex flex-col gap-10 lg:gap-[64px]">
       <div className="w-full">
-        <h2 className="font-['Pretendard'] font-bold text-[#333d4b] text-3xl lg:text-[48px] leading-[1.3] text-left lg:text-center break-words">
+        <h2 className="font-bold text-[#333d4b] text-3xl lg:text-[48px] leading-[1.3] text-left lg:text-center break-words">
           소프트먼트
           <br aria-hidden="true" />
           전체 서비스 모아보기

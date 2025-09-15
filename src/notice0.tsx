@@ -36,7 +36,7 @@ export default function App() {
         <div className="flex flex-col items-center overflow-clip relative size-full">
           <div className="box-border content-stretch flex flex-col gap-10 lg:gap-[40px] items-start justify-start  py-12 relative w-full">
             <div
-              className="font-['Pretendard'] font-bold  max-w-[1144px] w-full not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[32px] text-left tracking-[-0.32px]"
+              className="font-bold  max-w-[1144px] w-full not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[32px] text-left tracking-[-0.32px]"
             >
               <p className="block leading-[1.3]">공지사항</p>
             </div>
@@ -64,10 +64,10 @@ export default function App() {
                     >
                       <div className="grid grid-cols-1 lg:grid-cols-[100px_1fr_216px] items-start lg:items-center w-full px-4 lg:px-[20px] py-3 lg:py-[16px] gap-1 lg:gap-0">
                         {/* Type */}
-                        <div className="hidden lg:flex font-['Pretendard'] font-medium text-[#6b7684] text-[17px]">{row.type}</div>
-                        <div className="lg:hidden font-['Pretendard'] font-medium text-[#6b7684] text-sm">{row.type}</div>
+                        <div className="hidden lg:flex font-medium text-[#6b7684] text-[17px]">{row.type}</div>
+                        <div className="lg:hidden font-medium text-[#6b7684] text-sm">{row.type}</div>
                         {/* Title */}
-                        <div className="font-['Pretendard'] font-medium text-[#6b7684] text-base lg:text-[17px]">
+                        <div className="font-medium text-[#6b7684] text-base lg:text-[17px]">
                           {row.href ? (
                             <Link href={row.href} className="block leading-[1.6]">
                               {row.title}
@@ -77,8 +77,8 @@ export default function App() {
                           )}
                         </div>
                         {/* Date */}
-                        <div className="hidden lg:flex items-center justify-end font-['Pretendard'] font-medium text-[#8b95a1] text-[15px]">{row.date}</div>
-                        <div className="lg:hidden font-['Pretendard'] font-medium text-[#8b95a1] text-xs mt-1">{row.date}</div>
+                        <div className="hidden lg:flex items-center justify-end font-medium text-[#8b95a1] text-[15px]">{row.date}</div>
+                        <div className="lg:hidden font-medium text-[#8b95a1] text-xs mt-1">{row.date}</div>
                       </div>
                     </div>
                   ))}

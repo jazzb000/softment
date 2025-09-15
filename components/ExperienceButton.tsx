@@ -38,8 +38,8 @@ export function ExperienceButton({
       onMouseUp={() => setIsActive(false)}
     >
       <div className="flex items-center justify-center relative w-full px-[14px] py-[10px]" onClick={disabled ? undefined : onClick}>
-        <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[#ffffff] text-[17px] text-nowrap">
-          <p className="block leading-[2] whitespace-pre">{children}</p>
+        <div className="font-semibold not-italic relative shrink-0 text-[#ffffff] text-[17px] text-nowrap">
+          {children}
         </div>
       </div>
     </div>

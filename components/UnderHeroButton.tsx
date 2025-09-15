@@ -53,10 +53,10 @@ export function UnderHeroButton({
     >
       <div className="flex items-center justify-center relative size-full px-[14px] py-[11px]">
         <div
-          className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[17px] text-nowrap"
+          className="font-semibold not-italic relative shrink-0 text-[17px] text-nowrap"
           style={{ color: getTextColor() }}
         >
-          <p className="block leading-[1.5] whitespace-pre">{children}</p>
+          {children}
         </div>
       </div>
     </button>

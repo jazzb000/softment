@@ -58,16 +58,16 @@ export default function ServiceCard({
               <div className="content-stretch flex flex-col gap-[10px] items-start justify-start relative shrink-0">
                 {badge && (
                   <div className="bg-[rgba(78,89,104,0.16)] box-border content-stretch flex gap-[10px] items-center justify-center px-[8px] py-[4px] relative rounded-[10px] shrink-0">
-                    <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#4e5968] text-[12px] text-nowrap tracking-[-0.12px]">
+                    <div className="font-bold not-italic relative shrink-0 text-[#4e5968] text-[12px] text-nowrap tracking-[-0.12px]">
                       <p className="leading-[1.33] whitespace-pre">{badge}</p>
                     </div>
                   </div>
                 )}
-                <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#333d4b] text-2xl lg:text-[32px] tracking-[-0.32px] w-full">
+                <div className="font-bold not-italic relative shrink-0 text-[#333d4b] text-2xl lg:text-[32px] tracking-[-0.32px] w-full">
                   <p className="leading-[1.3]" dangerouslySetInnerHTML={{ __html: title }} />
                 </div>
               </div>
-              <div className="font-['Pretendard'] font-medium not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px] tracking-[-0.2px] w-full whitespace-pre-wrap break-words">
+              <div className="font-medium not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px] tracking-[-0.2px] w-full whitespace-pre-wrap break-words">
                 <div className="leading-[1.6]" dangerouslySetInnerHTML={{ __html: processDescription(description) }} />
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function ServiceCard({
                 onMouseLeave={() => setIsPrimaryHovered(false)}
                 onClick={onPrimaryClick}
               >
-                <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[16px] lg:text-[18px] leading-[1.5] text-nowrap">
+                <div className="font-semibold not-italic relative shrink-0 text-[16px] lg:text-[18px] leading-[1.5] text-nowrap">
                   {primaryHref ? (
                     <Link href={primaryHref} className="whitespace-pre">{primaryButtonText}</Link>
                   ) : (
@@ -99,7 +99,7 @@ export default function ServiceCard({
                 onMouseLeave={() => setIsSecondaryHovered(false)}
                 onClick={onSecondaryClick}
               >
-                <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[16px] lg:text-[18px] leading-[1.5] text-nowrap">
+                <div className="font-semibold not-italic relative shrink-0 text-[16px] lg:text-[18px] leading-[1.5] text-nowrap">
                   {secondaryHref ? (
                     <Link href={secondaryHref} className="whitespace-pre">{secondaryButtonText}</Link>
                   ) : (

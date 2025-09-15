@@ -113,7 +113,7 @@ export default function Login() {
               className="box-border content-stretch flex flex-row h-[138px] items-start justify-start overflow-clip pb-[24px] pt-[40px] px-[0px] relative shrink-0 w-full"
               data-name="로그인"
             >
-              <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[24px] text-left text-nowrap">
+              <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[24px] text-left text-nowrap">
                 <p className="block leading-[1.6] whitespace-pre">
                   로그인
                 </p>
@@ -129,7 +129,7 @@ export default function Login() {
                   className="box-border content-stretch flex flex-row gap-[10px] items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full"
                   data-name="이메일 주소"
                 >
-                  <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                     <p className="block leading-[1.6] whitespace-pre">
                       이메일 주소
                     </p>
@@ -152,7 +152,7 @@ export default function Login() {
                   className="box-border content-stretch flex flex-row items-center justify-start px-[0px] py-[6px] relative shrink-0 w-full"
                   data-name="비밀번호"
                 >
-                  <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
+                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#4e5968] text-[15px] text-left text-nowrap">
                     <p className="block leading-[1.6] whitespace-pre">
                       비밀번호
                     </p>
@@ -194,13 +194,13 @@ export default function Login() {
                 </LoginButton>
                 {/* 모바일 전용 비밀번호 찾기 텍스트 버튼 (아래 중앙 배치) */}
                 <div className="order-3 md:hidden box-border content-stretch flex items-center justify-center w-full mt-[20px] md:mt-0">
-                  <Link href="/findpw" className="font-['Pretendard'] font-normal leading-[0] not-italic text-[#6b7684] text-[14px] hover:text-[#4e5968] transition-colors duration-[200ms] cursor-pointer">
+                  <Link href="/findpw" className="font-normal leading-[0] not-italic text-[#6b7684] text-[14px] hover:text-[#4e5968] transition-colors duration-[200ms] cursor-pointer">
                     <p className="block leading-[1.6] text-nowrap whitespace-pre">비밀번호 찾기</p>
                   </Link>
                 </div>
                 {/* 회원가입, 비밀번호찾기 버튼 (모바일: 버튼 아래 중앙 정렬) */}
                 <div
-                  className="hidden md:order-1 md:flex box-border content-stretch flex-row font-['Pretendard'] font-normal gap-[4px] items-center w-full md:w-auto justify-end md:justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-[#6b7684] text-[14px] text-left text-nowrap"
+                  className="hidden md:order-1 md:flex box-border content-stretch flex-row font-normal gap-[4px] items-center w-full md:w-auto justify-end md:justify-start leading-[0] not-italic p-[0px] relative shrink-0 text-[#6b7684] text-[14px] text-left text-nowrap"
                   data-name="회원가입, 비밀번호찾기 버튼"
                 >
                   <Link href="/signin" className="relative shrink-0 hover:text-[#4e5968] transition-colors duration-[200ms] cursor-pointer">

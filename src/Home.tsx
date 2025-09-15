@@ -79,7 +79,7 @@ export default function App() {
         <div className="overflow-clip relative size-full">
           <div className="box-border content-stretch flex flex-col gap-16 lg:gap-[180px] items-start justify-start px-5 lg:px-[188px] py-16 lg:py-[180px] relative w-full">
             <div className="content-stretch flex flex-col gap-[64px] items-start justify-start relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[48px] text-left lg:text-center tracking-[-0.48px] w-full whitespace-pre-wrap break-words">
+              <div className="font-bold not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[48px] text-left lg:text-center tracking-[-0.48px] w-full whitespace-pre-wrap break-words">
                 <p className="leading-[1.3]">
                   결제서비스로
                   <br aria-hidden="true" />
@@ -92,17 +92,17 @@ export default function App() {
                     <div className="overflow-clip relative size-full">
                       <div className="box-border content-stretch flex flex-col gap-6 lg:gap-[24px] items-start justify-start p-6 lg:p-[40px] relative size-full">
                         <div className="content-stretch flex flex-col gap-[8px] items-start justify-start not-italic relative shrink-0 w-full">
-                          <div className="font-['Pretendard'] font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px]">
+                          <div className="font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px]">
                             <p className="leading-[1.6] whitespace-pre">해외결제</p>
                           </div>
-                          <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] whitespace-pre-wrap break-words">
+                          <div className="font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] whitespace-pre-wrap break-words">
                             <p className="leading-[1.6]">
                               해외카드, 페이팔, 중국 및 동남아 간편결제 등 다양한 해외결제수단을 개별로 계약/연동할 필요 없이,
                               <br aria-hidden="true" />
                               소프트먼트를 통해 한 번에 사용할 수 있어요.
                             </p>
                           </div>
-                          <div className="font-['Pretendard'] font-normal relative shrink-0 text-[#6b7684] text-sm lg:text-[15px] tracking-[-0.15px] whitespace-pre-wrap break-words">
+                          <div className="font-normal relative shrink-0 text-[#6b7684] text-sm lg:text-[15px] tracking-[-0.15px] whitespace-pre-wrap break-words">
                             <p className="leading-[1.6]">중국/동남아 간편결제: 24년 1분기 중 지원 예정</p>
                           </div>
                         </div>
@@ -112,10 +112,10 @@ export default function App() {
                   </div>
                   <div className="bg-white box-border content-stretch flex flex-col gap-6 lg:gap-[24px] items-start justify-start overflow-clip p-6 lg:p-[40px] relative rounded-[20px] shrink-0 self-stretch w-full lg:w-[290px]">
                     <div className="content-stretch flex flex-col gap-[8px] items-start justify-start leading-[0] not-italic relative shrink-0 w-full">
-                      <div className="font-['Pretendard'] font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px] w-full">
+                      <div className="font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px] w-full">
                         <p className="leading-[1.6]">현금영수증 무료 발급서비스</p>
                       </div>
-                      <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] w-full whitespace-pre-wrap break-words">
+                      <div className="font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] w-full whitespace-pre-wrap break-words">
                         <p className="leading-[1.6]">홈택스 접속 없이 소프트먼트에서 제공하는 현금영수증 API로 현금영수증을 편리하게 발급해보세요.</p>
                       </div>
                     </div>
@@ -125,10 +125,10 @@ export default function App() {
                 <div className="content-stretch grid grid-cols-1 lg:grid-cols-[225px_1fr] gap-6 lg:gap-[24px] items-start justify-start relative shrink-0 w-full">
                   <div className="bg-white box-border content-stretch flex flex-col gap-6 lg:gap-[24px] items-start justify-start overflow-clip p-6 lg:p-[40px] relative rounded-[20px] self-stretch shrink-0 w-full lg:w-[225px]">
                     <div className="content-stretch flex flex-col gap-[8px] items-start justify-start leading-[0] not-italic relative shrink-0 w-full">
-                      <div className="font-['Pretendard'] font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px] w-full">
+                      <div className="font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px] w-full">
                         <p className="leading-[1.6]">FDS</p>
                       </div>
-                      <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] w-full whitespace-pre-wrap break-words">
+                      <div className="font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] w-full whitespace-pre-wrap break-words">
                         <p className="leading-[1.6]">계약된 상점에서 일어난 거래들을 분석하여 피싱, 도용과 같은 부정 결제와 유사수신행위와 같은 불법거래를 식별하고 차단하고 있어요.</p>
                       </div>
                     </div>
@@ -138,14 +138,14 @@ export default function App() {
                       <div className="box-border content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[24px] items-start justify-start p-6 lg:p-[40px] relative size-full ">
                         <div className="basis-0 content-stretch flex flex-col gap-6 lg:gap-[24px] grow items-start justify-start min-h-px min-w-0 not-italic relative shrink-0">
                           <div className="content-stretch flex flex-col gap-[8px] items-start justify-start relative shrink-0 w-full">
-                            <div className="font-['Pretendard'] font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px]">
+                            <div className="font-bold relative shrink-0 text-[#333d4b] text-xl lg:text-[24px] tracking-[-0.24px]">
                               <p className="leading-[1.6] whitespace-pre">정산지급대행 서비스</p>
                             </div>
-                            <div className="font-['Pretendard'] font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] whitespace-pre-wrap break-words">
+                            <div className="font-medium relative shrink-0 text-[#4e5968] text-base lg:text-[17px] tracking-[-0.17px] whitespace-pre-wrap break-words">
                               <p className="leading-[1.6]">오픈마켓 형태의 쇼핑몰을 대상으로 전자금융사업자인 소프트먼트가 쇼핑몰 입점 판매자에게 대금지급을 대행해주는 서비스예요.</p>
                             </div>
                           </div>
-                          <div className="font-['Pretendard'] font-normal relative shrink-0 text-[#6b7684] text-sm lg:text-[15px] tracking-[-0.15px] w-full whitespace-pre-wrap break-words">
+                          <div className="font-normal relative shrink-0 text-[#6b7684] text-sm lg:text-[15px] tracking-[-0.15px] w-full whitespace-pre-wrap break-words">
                             <p className="leading-[1.6]">정산대금 실시간 지급: 24년 1분기 중 지원 예정</p>
                           </div>
                         </div>
@@ -173,10 +173,10 @@ export default function App() {
           <div className="box-border content-stretch flex flex-col gap-16 lg:gap-[180px] items-center justify-start px-5 lg:px-[188px] py-16 lg:py-[180px] relative w-full">
             <div className="content-stretch flex flex-col gap-12 lg:gap-[48px] items-start justify-start relative shrink-0 w-full">
               <div className="content-stretch flex flex-col gap-4 lg:gap-[16px] items-start justify-start not-italic relative shrink-0 text-left lg:text-center text-white w-full">
-                <div className="font-['Pretendard'] font-semibold relative shrink-0 text-base lg:text-[20px] tracking-[-0.2px] w-full">
+                <div className="font-semibold relative shrink-0 text-base lg:text-[20px] tracking-[-0.2px] w-full">
                   <p className="leading-[1.6]">국내 PG 거래액 1위, 가맹점 수 100,000+</p>
                 </div>
-                <div className="font-['Pretendard'] font-bold relative shrink-0 text-3xl lg:text-[48px] tracking-[-0.48px] w-full whitespace-pre-wrap break-words">
+                <div className="font-bold relative shrink-0 text-3xl lg:text-[48px] tracking-[-0.48px] w-full whitespace-pre-wrap break-words">
                   <p className="leading-[1.3]">소프트먼트와 함께하는 가맹점</p>
                 </div>
               </div>
@@ -248,7 +248,7 @@ export default function App() {
 
             {/* Success Stories */}
             <div className="content-stretch flex flex-col gap-10 lg:gap-[40px] items-center justify-start relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-2xl lg:text-[36px] text-center text-white tracking-[-0.36px] w-full">
+              <div className="font-bold not-italic relative shrink-0 text-2xl lg:text-[36px] text-center text-white tracking-[-0.36px] w-full">
                 <p className="leading-[1.3]">소프트먼트 가맹점 성공 스토리</p>
               </div>
               <div className="content-stretch grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-[24px] items-start justify-start relative shrink-0 w-full">
@@ -261,7 +261,7 @@ export default function App() {
                     <div className="aspect-[304/202] bg-[#f2f4f6] relative shrink-0 w-full">
                       <div className="flex flex-col items-center justify-center overflow-clip relative size-full">
                         <div className="aspect-[304/202] box-border content-stretch flex flex-col gap-[48px] items-center justify-center px-[44px] py-[36px] relative size-full">
-                          <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#3182f6] text-[20px] text-nowrap tracking-[-0.2px]">
+                          <div className="font-bold not-italic relative shrink-0 text-[#3182f6] text-[20px] text-nowrap tracking-[-0.2px]">
                             <p className="leading-[1.5] whitespace-pre">사진</p>
                           </div>
                         </div>
@@ -270,11 +270,11 @@ export default function App() {
                     <div className="relative shrink-0 w-full">
                       <div className="relative size-full">
                         <div className="box-border content-stretch flex flex-col gap-5 items-start justify-start pb-[28px] pt-[20px] px-[28px] relative w-full">
-                          <div className="font-['Pretendard'] font-bold min-w-full not-italic relative shrink-0 text-[#333d4b] text-xl lg:text-[24px]">
+                          <div className="font-bold min-w-full not-italic relative shrink-0 text-[#333d4b] text-xl lg:text-[24px]">
                             <p className="leading-[1.6]">{story.title}</p>
                           </div>
                           <div className="bg-[rgba(49,130,246,0.16)] box-border content-stretch flex gap-[10px] items-center justify-center px-[8px] py-[2px] relative rounded-[999px] shrink-0">
-                            <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#1b64da] text-[12px] text-nowrap">
+                            <div className="font-bold not-italic relative shrink-0 text-[#1b64da] text-[12px] text-nowrap">
                               <p className="leading-[1.6] whitespace-pre">{story.badge}</p>
                             </div>
                           </div>
@@ -293,7 +293,7 @@ export default function App() {
                 onMouseEnter={() => setIsArticleHovered(true)}
                 onMouseLeave={() => setIsArticleHovered(false)}
               >
-                <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[19px] leading-[1.6] text-nowrap">
+                <div className="font-semibold not-italic relative shrink-0 text-[19px] leading-[1.6] text-nowrap">
                   <p className="whitespace-pre">아티클 더보기</p>
                 </div>
               </div>
@@ -309,7 +309,7 @@ export default function App() {
         <div className="overflow-clip relative size-full">
           <div className="box-border content-stretch flex flex-col gap-16 lg:gap-[80px] items-start justify-start px-5 lg:px-[188px] py-16 lg:py-[180px] relative w-full">
             <div className="content-stretch flex flex-col gap-[40px] items-start justify-start relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[36px] text-left lg:text-center tracking-[-0.36px] w-full">
+              <div className="font-bold not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[36px] text-left lg:text-center tracking-[-0.36px] w-full">
                 <p className="leading-[1.3]">PG 가입 절차</p>
               </div>
               <div className="bg-white relative rounded-[20px] shrink-0 w-full">
@@ -323,7 +323,7 @@ export default function App() {
                         { step: "STEP 4", title: "결제서비스 이용" }
                       ].map((item, index) => (
                         <div key={index} className="basis-0 flex flex-row grow items-start self-stretch shrink-0">
-                          <div className="basis-0 content-stretch flex flex-col font-['Pretendard'] font-bold gap-2 lg:gap-[8px] grow h-full items-start justify-start min-h-px min-w-px not-italic relative shrink-0">
+                          <div className="basis-0 content-stretch flex flex-col font-bold gap-2 lg:gap-[8px] grow h-full items-start justify-start min-h-px min-w-px not-italic relative shrink-0">
                             <div className="relative shrink-0 text-[#3182f6] text-sm lg:text-[17px] text-left tracking-[-0.17px]">
                               <p className="leading-[1.6]">{item.step}</p>
                             </div>
@@ -341,7 +341,7 @@ export default function App() {
 
             {/* FAQ Section - 개선된 아코디언 */}
             <div className="content-stretch flex flex-col gap-[40px] items-start justify-start relative shrink-0 w-full">
-              <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#333d4b] text-2xl lg:text-[36px] text-left lg:text-center tracking-[-0.36px] w-full">
+              <div className="font-bold not-italic relative shrink-0 text-[#333d4b] text-2xl lg:text-[36px] text-left lg:text-center tracking-[-0.36px] w-full">
                 <p className="leading-[1.3]">자주 묻는 질문</p>
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start justify-start relative shrink-0 w-full ">
@@ -362,7 +362,7 @@ export default function App() {
                       >
                         <div className="flex flex-row items-center relative size-full">
                           <div className="box-border content-stretch flex items_center justify-between px-[14px] py-[9px] relative w-full">
-                            <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[17px]">
+                            <div className="font-semibold not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[17px]">
                               <p className="leading-[1.6] whitespace-pre-wrap break-words max-w-[300px] lg:max-w-none">{faq.question}</p>
                             </div>
                             <div 
@@ -390,7 +390,7 @@ export default function App() {
                       {openFaqIndexes.includes(index) && (
                         <div className="relative shrink-0 w-full">
                           <div className="relative size-full">
-                            <div className="box-border content_stretch flex flex-col font-['Pretendard'] font-normal gap-4 items-start justify-start not-italic pb-6 pl-[14px] pr-[30px] pt-[10px] relative text-sm lg:text-[15px] w-full">
+                            <div className="box-border content_stretch flex flex-col font-normal gap-4 items-start justify-start not-italic pb-6 pl-[14px] pr-[30px] pt-[10px] relative text-sm lg:text-[15px] w-full">
                               <div className="relative shrink-0 text-[#4e5968] w-full whitespace-pre-wrap break-words">
                                 <p className="leading-[1.6]">
                                   {faq.answer.split('<br/>').map((line, lineIndex) => (
@@ -447,7 +447,7 @@ export default function App() {
             <div className="absolute lg:aspect-[1456/816] aspect-[600/600] bg-center bg-cover bg-no-repeat left-[-8px] right-[-8px] top-1/2 translate-y-[-50%]" style={{ backgroundImage: `url('${IMAGES.bgP31}')` }} />
             <div className="content-stretch flex flex-col gap-8 lg:gap-[40px] items-center justify-center relative shrink-0">
               <div className="content-stretch flex flex-col gap-6 lg:gap-[24px] items-center relative shrink-0 w-full">
-                <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[#191f28] text-3xl lg:text-[48px] text-center whitespace-pre-wrap break-words">
+                <div className="font-bold not-italic relative shrink-0 text-[#191f28] text-3xl lg:text-[48px] text-center whitespace-pre-wrap break-words">
                     전문가에게 무료로 <br/>
                     결제컨설팅 받아보세요
 
@@ -455,13 +455,13 @@ export default function App() {
                 <div className="content-stretch flex flex-col gap-2 lg:gap-[8px] items-center justify-start relative shrink-0 w-full">
                   <div className="content-stretch flex gap-[4px] text-center items-center justify-start relative shrink-0">
                     <CheckboxIcon path={svgPaths.p2d72800} />
-                    <div className="font-['Pretendard'] font-medium not-italic relative shrink-0 text-[#4e5968] text-base lg:text-left lg:text-[20px]">
+                    <div className="font-medium not-italic relative shrink-0 text-[#4e5968] text-base lg:text-left lg:text-[20px]">
                       <p className="leading-[1.6] whitespace-pre-wrap break-words">사업 유형에 맞는 결제서비스를 제안해 드려요.</p>
                     </div>
                   </div>
                   <div className="content-stretch flex gap-[4px] items-center justify-start relative shrink-0">
                     <CheckboxIcon path={svgPaths.p3a153700} />
-                    <div className="font-['Pretendard'] font-medium not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px]">
+                    <div className="font-medium not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px]">
                       <p className="leading-[1.6] whitespace-pre-wrap break-words">고객님이 원하는 일정에 맞춰 담당자가 연락드려요.</p>
                     </div>
                   </div>
@@ -476,7 +476,7 @@ export default function App() {
                   onMouseEnter={() => setIsInquiryHovered(true)}
                   onMouseLeave={() => setIsInquiryHovered(false)}
                 >
-                  <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
+                  <div className="font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
                     <p className="whitespace-pre">도입 문의하기</p>
                   </div>
                 </div>
@@ -489,7 +489,7 @@ export default function App() {
                   onMouseEnter={() => setIsApplyHovered(true)}
                   onMouseLeave={() => setIsApplyHovered(false)}
                 >
-                  <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
+                  <div className="font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
                     <p className="whitespace-pre">이용 신청하기</p>
                   </div>
                 </div>
@@ -507,10 +507,10 @@ export default function App() {
               <div className="box-border content-stretch flex flex-col items-center justify-center p-[10px] relative shrink-0 w-[80.002px]">
                 <div className="aspect-[80.002/80] bg-[55.43%_45.42%] bg-no-repeat bg-size-[135.64%_203.47%] shrink-0 w-full" style={{ backgroundImage: `url('${IMAGES.logo3D}')` }} />
               </div>
-              <div className="font-['Pretendard'] font-bold relative shrink-0 text-xl lg:text-[24px] text-center text-white tracking-[-0.24px] w-full whitespace-pre-wrap break-words">
+              <div className="font-bold relative shrink-0 text-xl lg:text-[24px] text-center text-white tracking-[-0.24px] w-full whitespace-pre-wrap break-words">
                 <p className="leading-[1.3]">소프트먼트만이 드릴 수 있는 강력한 결제 경험</p>
               </div>
-              <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-center text-white w-full">
+              <div className="font-semibold not-italic relative shrink-0 text-center text-white w-full">
                 <p className="leading-[1.6] text-base lg:text-[17px]">
                   <span className="text-[#3182f6]">30초</span>만에 내 사업에 맞는 결제 서비스를 찾아드려요
                 </p>
@@ -525,7 +525,7 @@ export default function App() {
               onMouseEnter={() => setIsCustomHovered(true)}
               onMouseLeave={() => setIsCustomHovered(false)}
             >
-              <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
+              <div className="font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
                 <p className="whitespace-pre">맞춤 제안 받기</p>
               </div>
             </div>

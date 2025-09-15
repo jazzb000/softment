@@ -51,7 +51,7 @@ export function Navbar({
                   className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
                   onClick={() => handleNavigate(item, 'menu')}
                 >
-                  <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
+                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
                     <p className="block leading-[1.5] whitespace-pre">{item}</p>
                   </div>
                 </Link>
@@ -68,7 +68,7 @@ export function Navbar({
                   className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
                   onClick={() => handleNavigate(item, 'action')}
                 >
-                  <div className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
+                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
                     <p className="block leading-[1.5] whitespace-pre">{item}</p>
                   </div>
                 </Link>

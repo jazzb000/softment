@@ -75,7 +75,7 @@ export function Input({
             rounded-[12px] 
             px-[14px] 
             py-[0px] 
-            font-['Pretendard'] font-normal 
+            font-normal 
             text-[16px] 
             text-[#333333] 
             outline-none 
@@ -88,7 +88,7 @@ export function Input({
       </div>
       {error && hasBeenTouched && (
         <div className="mt-[8px]">
-          <p className="font-['Pretendard'] font-normal text-[14px] text-[#F04452] leading-[150%] text-left">
+          <p className="font-normal text-[14px] text-[#F04452] leading-[150%] text-left">
             {error}
           </p>
         </div>

@@ -61,7 +61,7 @@ export function Pagination({
           >
             <div className="relative shrink-0 size-[24px]">
               <div
-                className="absolute font-['Pretendard'] font-semibold inset-0 leading-[0] not-italic text-[15px] text-center"
+                className="absolute font-semibold inset-0 leading-[0] not-italic text-[15px] text-center"
                 style={{ color: getPaginationStyles(page).color }}
               >
                 <p className="block leading-[1.6]">{page}</p>
@@ -101,7 +101,7 @@ export function Pagination({
           >
             <div className="relative shrink-0 size-[24px]">
               <div
-                className="absolute font-['Pretendard'] font-semibold inset-0 leading-[0] not-italic text-[15px] text-center"
+                className="absolute font-semibold inset-0 leading-[0] not-italic text-[15px] text-center"
                 style={{ color: getPaginationStyles(pageNumbers[pageNumbers.length - 1]).color }}
               >
                 <p className="block leading-[1.6]">{pageNumbers[pageNumbers.length - 1]}</p>

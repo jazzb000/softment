@@ -83,8 +83,8 @@ export function LoginButton({
       `}
       style={{ backgroundColor: resolvedBackground }}
     >
-      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[18px] text-left text-nowrap" style={{ color: resolvedTextColor }}>
-        <p className="block leading-[1.5] whitespace-pre">{children}</p>
+      <div className="font-semibold not-italic relative shrink-0 text-[18px] text-left text-nowrap" style={{ color: resolvedTextColor }}>
+        {children}
       </div>
     </button>
   );

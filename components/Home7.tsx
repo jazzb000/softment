@@ -9,7 +9,7 @@ export default function CommerceDetailCard({ onClick }: CommerceDetailCardProps)
         <div className="flex flex-col items-center overflow-clip relative size-full">
           <div className="box-border content-stretch flex flex-col gap-4 h-[300px] items-center justify-start p-[24px] relative w-full">
             <div className="content-stretch flex gap-2 items-center justify-start relative shrink-0">
-              <div className="font-['Pretendard'] font-bold not-italic relative shrink-0 text-[24px] text-nowrap text-white">
+              <div className="font-bold not-italic relative shrink-0 text-[24px] text-nowrap text-white">
                 <p className="leading-[1.6] whitespace-pre">커머스/소매</p>
               </div>
               <div className="bg-[rgba(49,130,246,0.2)] relative rounded-[100px] shrink-0 size-6">
@@ -21,7 +21,7 @@ export default function CommerceDetailCard({ onClick }: CommerceDetailCardProps)
                 </div>
               </div>
             </div>
-            <div className="basis-0 content-stretch flex flex-col font-['Pretendard'] font-medium gap-4 grow items-center justify-center leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[15px] text-center w-full">
+            <div className="basis-0 content-stretch flex flex-col font-medium gap-4 grow items-center justify-center leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[15px] text-center w-full">
               <div className="relative shrink-0 text-white w-full">
                 <p className="leading-[1.6]">다양한 고객의 요구가 반영된 결제수단을 제공하는 것이 중요해요. 단골 관리, 결제 전환율 분석 등 데이터 기반의 의사결정이 필요해요.</p>
               </div>

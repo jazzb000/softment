@@ -35,10 +35,10 @@ export function LinkButton({ children, disabled = false, onClick }: LinkButtonPr
       data-name="Text Button/s"
     >
       <div 
-        className="font-['Pretendard'] font-medium leading-[0] not-italic relative shrink-0 text-[17px] text-left text-nowrap tracking-[-0.17px] transition-all duration-200 ease-in-out"
+        className="font-medium not-italic relative shrink-0 text-[17px] text-left text-nowrap tracking-[-0.17px] transition-all duration-200 ease-in-out"
         style={{ color: getTextColor() }}
       >
-        <p className="adjustLetterSpacing block leading-[1.6] whitespace-pre">{children}</p>
+        {children}
       </div>
       <div className="relative shrink-0 size-[16px] transition-all duration-200 ease-in-out" data-name="Icon/Chevron">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">

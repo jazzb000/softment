@@ -22,15 +22,15 @@ export default function App() {
               <div className="box-border content-stretch flex flex-col gap-4 items-start justify-start leading-[0] not-italic p-0 relative shrink-0 text-left w-full">
                 <div className="box-border content-stretch flex flex-col gap-2 items-start justify-start pb-0 pt-2 px-0 relative shrink-0 w-full">
                   <div
-                    className="font-['Pretendard'] font-bold relative shrink-0 text-[#333d4b] text-3xl lg:text-[32px] tracking-[-0.32px]"
+                    className="font-bold relative shrink-0 text-[#333d4b] text-3xl lg:text-[32px] tracking-[-0.32px]"
                   >
                     <p className="block leading-[1.3] whitespace-pre-wrap break-words">[공지] 전자결제 서비스 이용약관 개정에 대한 안내(25년 9월 1일 시행)</p>
                   </div>
-                  <div className="font-['Pretendard'] font-normal relative shrink-0 text-[#8b95a1] text-xs lg:text-[15px]">
+                  <div className="font-normal relative shrink-0 text-[#8b95a1] text-xs lg:text-[15px]">
                     <p className="block leading-[1.6] whitespace-pre">2025.07.31</p>
                   </div>
                 </div>
-                <div className="font-['Pretendard'] font-normal relative shrink-0 text-[#4e5968] text-base lg:text-[17px] w-full whitespace-pre-wrap break-words">
+                <div className="font-normal relative shrink-0 text-[#4e5968] text-base lg:text-[17px] w-full whitespace-pre-wrap break-words">
                   <p className="leading-[1.7] mb-0">
                     <span>
                       안녕하세요, 소프트먼트입니다.
@@ -41,7 +41,7 @@ export default function App() {
                       <br aria-hidden="true" />
                       <br aria-hidden="true" />
                     </span>
-                    <span className="font-['Pretendard'] font-bold not-italic">{`<주요 개정사항>`}</span>
+                    <span className="font-bold not-italic">{`<주요 개정사항>`}</span>
                   </p>
                   <ol className="list-decimal ml-6 lg:ml-8 space-y-1" start={1}>
                     <li className="whitespace-pre-wrap">
@@ -100,7 +100,7 @@ export default function App() {
                   </ol>
                   <p className="leading-[1.7] mb-0">&nbsp;</p>
                   <p className="leading-[1.7] mb-0">
-                    <span className="font-['Pretendard'] font-bold not-italic">{`<개정일자>`}</span>
+                    <span className="font-bold not-italic">{`<개정일자>`}</span>
                     <span>
                       <br aria-hidden="true" />
                       약관시행일 : 2025.9.1.
@@ -110,7 +110,7 @@ export default function App() {
                   </p>
                   <p className="leading-[1.7] mb-0">&nbsp;</p>
                   <p className="leading-[1.7]">
-                    <span className="font-['Pretendard'] font-bold not-italic">
+                    <span className="font-bold not-italic">
                       {`<이의제기 관련 사항>`}
                       <br aria-hidden="true" />
                     </span>
@@ -131,7 +131,7 @@ export default function App() {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-sm lg:text-[15px] text-[rgba(3,18,40,0.7)] text-left">
+                <div className="font-semibold leading-[0] not-italic relative shrink-0 text-sm lg:text-[15px] text-[rgba(3,18,40,0.7)] text-left">
                   <p className="block leading-[1.6] whitespace-pre">목록으로 돌아가기</p>
                 </div>
               </Link>

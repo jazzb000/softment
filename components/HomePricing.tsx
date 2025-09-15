@@ -15,13 +15,13 @@ export default function PricingSection() {
     <div className="bg-white relative shrink-0 w-full">
       <div className="overflow-clip relative size-full">
         <div className="box-border content-stretch flex flex-col gap-5 lg:gap-[20px] items-start justify-start px-5 lg:px-[188px] py-16 lg:py-[180px] relative w-full">
-          <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[48px] text-left lg:text-center tracking-[-0.48px] w-full">
+          <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-3xl lg:text-[48px] text-left lg:text-center tracking-[-0.48px] w-full">
             <p className="leading-[1.3]">PG 수수료</p>
           </div>
           <div className="bg-[rgba(2,32,71,0.05)] relative rounded-[20px] shrink-0 w-full">
             <div className="flex flex-row items-center overflow-clip relative size-full">
               <div className="box-border content-stretch flex gap-[16px] items-center justify-start p-4 lg:p-[40px] relative w-full">
-                <div className="basis-0 font-['Pretendard'] font-semibold grow h-full leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px] tracking-[-0.2px] whitespace-pre-wrap break-words">
+                <div className="basis-0 font-semibold grow h-full leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px] tracking-[-0.2px] whitespace-pre-wrap break-words">
                   <p className="leading-[1.6]">사업의 영・중소 등급과 간편결제 이용 여부에 따라 수수료가 달라져요.</p>
                 </div>
                 
@@ -33,7 +33,7 @@ export default function PricingSection() {
                   onMouseEnter={() => setIsCustomQuoteHovered(true)}
                   onMouseLeave={() => setIsCustomQuoteHovered(false)}
                 >
-                  <div className="font-['Pretendard'] font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
+                  <div className="font-semibold not-italic relative shrink-0 text-[17px] leading-[1.5] text-nowrap">
                     <p className="whitespace-pre">맞춤 견적 문의하기</p>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ export default function PricingSection() {
                 <div className="basis-0 grow max-w-[248px] min-h-px min-w-px relative shrink-0">
                   <div className="flex flex-row items-center max-w-inherit relative size-full">
                     <div className="box-border content-stretch flex items-center justify-start max-w-inherit pl-0 pr-[24px] py-0 relative w-full">
-                      <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px]">
+                      <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px]">
                         <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.service}</p>
                       </div>
                     </div>
@@ -58,11 +58,11 @@ export default function PricingSection() {
                   <div className="flex flex-row items-center relative size-full">
                     <div className="box-border content-stretch flex items-center justify-start pl-0 pr-[24px] py-0 relative w-full">
                       <div className="basis-0 content-stretch flex flex-col grow items-start justify-center min-h-px min-w-px relative shrink-0">
-                        <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px]">
+                        <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#4e5968] text-base lg:text-[20px]">
                           <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.price}</p>
                         </div>
                         {item.note && (
-                          <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-sm lg:text-[17px]">
+                          <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#6b7684] text-sm lg:text-[17px]">
                             <p className="leading-[1.6] whitespace-pre-wrap break-words">{item.note}</p>
                           </div>
                         )}

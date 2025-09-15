@@ -26,7 +26,7 @@ export function QnASection({ openQnAIndexes, toggleQnA, items }: QnASectionProps
     <div className=" relative shrink-0 w-full">
       <div className="py-[80px] lg:py-[160px] w-full">
         <div className="box-border content-stretch flex flex-col lg:gap-[80px] gap-[40px] items-start justify-start relative w-full">
-          <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#191f28] lg:text-[48px] text-[32px] text-start md:text-center w-full">
+          <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#191f28] lg:text-[48px] text-[32px] text-start md:text-center w-full">
             <p className="block leading-[1.3] whitespace-pre-wrap break-words">자주 묻는 질문</p>
           </div>
           <div className="box-border content-stretch flex flex-col gap-[8px] items-start justify-start p-0 relative shrink-0 w-full">
@@ -44,7 +44,7 @@ export function QnASection({ openQnAIndexes, toggleQnA, items }: QnASectionProps
                     onMouseEnter={() => setHoveredIndex(i)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
-                    <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative flex-1 text-[#4e5968] lg:text-[17px] text-[16px] pr-4">
+                    <div className="font-semibold leading-[0] not-italic relative flex-1 text-[#4e5968] lg:text-[17px] text-[16px] pr-4">
                       <p className="block leading-[1.6] whitespace-pre-wrap break-words">{qna.question}</p>
                     </div>
                     <div className="relative shrink-0 size-[20px]">
@@ -66,7 +66,7 @@ export function QnASection({ openQnAIndexes, toggleQnA, items }: QnASectionProps
                   <div className="relative w-full">
                     <div className="relative w-full">
                       <div className="box-border content-stretch flex flex-col gap-4 items-start justify-start lg:pb-6 pb-5 lg:pl-[14px] pl-[16px] lg:pr-[30px] pr-[16px] pt-2.5 relative w-full bg-transparent rounded-b-[12px]">
-                        <div className="font-['Pretendard'] font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[15px] text-[14px] w-full">
+                        <div className="font-normal leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[15px] text-[14px] w-full">
                           <p className="leading-[1.6] whitespace-pre-wrap break-words">
                             <span>{qna.answer}</span>
                             {(qna.linkText1 || qna.linkText) ? (

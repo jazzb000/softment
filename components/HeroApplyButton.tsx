@@ -23,8 +23,8 @@ export function HeroApplyButton({ onClick, disabled = false }: HeroApplyButtonPr
       className="box-border content-stretch flex flex-row h-[49px] items-center justify-center px-[14px] py-[11px] relative rounded-xl shrink-0 transition-all duration-200 cursor-pointer disabled:cursor-not-allowed disabled:opacity-70"
       style={{ backgroundColor: getBackgroundColor() }}
     >
-      <div className="font-['Pretendard'] font-semibold leading-[0] not-italic relative shrink-0 text-[#ffffff] text-[17px] text-left text-nowrap pointer-events-none">
-        <p className="block leading-[1.5] whitespace-pre">이용 신청하기</p>
+      <div className="font-semibold not-italic relative shrink-0 text-[#ffffff] text-[17px] text-left text-nowrap pointer-events-none">
+        이용 신청하기
       </div>
     </button>
   );

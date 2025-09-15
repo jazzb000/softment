@@ -34,12 +34,12 @@ export function SlideSection({ currentSlideIndex }: SlideSectionProps) {
                 />
               </div>
               <div className="box-border content-stretch flex flex-col lg:gap-2 gap-2 items-start justify-start leading-[0] not-italic p-0 relative shrink-0 w-full z-10">
-                <div className="font-['Pretendard'] font-bold leading-[1.3] relative shrink-0 lg:text-[32px] text-[32px] text-[rgba(2,9,19,0.91)] lg:text-nowrap lg:whitespace-pre">
+                <div className="font-bold leading-[1.3] relative shrink-0 lg:text-[32px] text-[32px] text-[rgba(2,9,19,0.91)] lg:text-nowrap lg:whitespace-pre">
                   <p className="block mb-0">현금영수증</p>
                   <p className="block">자동 발급</p>
                 </div>
                 <div
-                  className="font-['Pretendard'] font-semibold min-w-full relative shrink-0 text-[#4e5968] lg:text-[20px] text-[20px] tracking-[-0.2px]"
+                  className="font-semibold min-w-full relative shrink-0 text-[#4e5968] lg:text-[20px] text-[20px] tracking-[-0.2px]"
                   style={{ width: "min-content" }}
                 >
                   <p className="block leading-[1.6]">등록된 휴대폰 번호로 현금영수증을 자동 발급해요.</p>
@@ -62,12 +62,12 @@ export function SlideSection({ currentSlideIndex }: SlideSectionProps) {
                 />
               </div>
               <div className="box-border content-stretch flex flex-col lg:gap-2 gap-2 items-start justify-start leading-[0] not-italic p-0 relative shrink-0 w-full z-10">
-                <div className="font-['Pretendard'] font-bold leading-[1.3] relative shrink-0 lg:text-[32px] text-[32px] text-[rgba(2,9,19,0.91)] lg:text-nowrap lg:whitespace-pre">
+                <div className="font-bold leading-[1.3] relative shrink-0 lg:text-[32px] text-[32px] text-[rgba(2,9,19,0.91)] lg:text-nowrap lg:whitespace-pre">
                   <p className="block mb-0">에스크로</p>
                   <p className="block">서비스 지원</p>
                 </div>
                 <div
-                  className="font-['Pretendard'] font-semibold min-w-full relative shrink-0 text-[#4e5968] lg:text-[20px] text-[20px] tracking-[-0.2px]"
+                  className="font-semibold min-w-full relative shrink-0 text-[#4e5968] lg:text-[20px] text-[20px] tracking-[-0.2px]"
                   style={{ width: "min-content" }}
                 >
                   <p className="block leading-[1.6]">고객에게 안전한 결제 경험을 줄 수 있어요.</p>
@@ -80,12 +80,12 @@ export function SlideSection({ currentSlideIndex }: SlideSectionProps) {
           <div className="flex-shrink-0 w-full h-full flex items-center justify-center">
             <div className="bg-[#ffffff] box-border content-stretch flex flex-col h-full items-start justify-start overflow-clip lg:p-[40px] p-[40px] relative rounded-[20px] shrink-0 w-full">
               <div className="box-border content-stretch flex flex-col lg:gap-2 gap-2 items-start justify-start leading-[0] not-italic p-0 relative shrink-0 w-full z-10">
-                <div className="font-['Pretendard'] font-bold leading-[1.3] relative shrink-0 lg:text-[32px] text-[32px] text-[rgba(2,9,19,0.91)] lg:text-nowrap lg:whitespace-pre">
+                <div className="font-bold leading-[1.3] relative shrink-0 lg:text-[32px] text-[32px] text-[rgba(2,9,19,0.91)] lg:text-nowrap lg:whitespace-pre">
                   <p className="block mb-0">실시간 결제</p>
                   <p className="block">환불처리</p>
                 </div>
                 <div
-                  className="font-['Pretendard'] font-semibold min-w-full relative shrink-0 text-[#4e5968] lg:text-[20px] text-[20px] tracking-[-0.2px]"
+                  className="font-semibold min-w-full relative shrink-0 text-[#4e5968] lg:text-[20px] text-[20px] tracking-[-0.2px]"
                   style={{ width: "min-content" }}
                 >
                   <p className="block leading-[1.6]">실시간 결제/환불처리로 고객 문의가 적어요.</p>
@@ -111,7 +111,7 @@ export function SlideSection({ currentSlideIndex }: SlideSectionProps) {
           <div key={i} className="basis-0 box-border content-stretch flex flex-col lg:gap-[14px] gap-[14px] grow items-start justify-start min-h-px min-w-px p-0 relative shrink-0">
             <div className={`lg:h-[2px] h-[2px] shrink-0 w-full transition-colors duration-300 ${i === currentSlideIndex ? 'bg-[#3182f6]' : 'bg-[#d1d6db]'}`} />
             <div className="box-border content-stretch flex items-center justify-center lg:pb-[4px] pb-[4px] pt-0 px-0 relative shrink-0">
-              <div className="font-['Pretendard'] font-bold leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[14px] text-[14px] lg:text-nowrap tracking-[-0.14px]">
+              <div className="font-bold leading-[0] not-italic relative shrink-0 text-[#4e5968] lg:text-[14px] text-[14px] lg:text-nowrap tracking-[-0.14px]">
                 <p className="adjustLetterSpacing block leading-[1.5] lg:whitespace-pre">{text}</p>
               </div>
             </div>

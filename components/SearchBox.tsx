@@ -96,7 +96,7 @@ export function SearchBox({
           </svg>
         </div>
         <input
-          className="basis-0 font-['Pretendard'] font-normal grow leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[17px] text-left bg-transparent border-none outline-none transition-colors duration-100 ease-in-out"
+          className="basis-0 font-normal grow leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[17px] text-left bg-transparent border-none outline-none transition-colors duration-100 ease-in-out"
           style={{ color: getSearchTextColor() }}
           placeholder={placeholder}
           value={searchValue}
