@@ -33,6 +33,10 @@ export function Navbar({
     '로그인': 'https://pis.softment.co.kr/',
   };
 
+  const isExternalUrl = (url: string) => {
+    return url.startsWith('http://') || url.startsWith('https://');
+  };
+
   const handleNavigate = (item: string, type: 'menu' | 'action') => {
     if (type === 'menu') onMenuClick?.(item);
     if (type === 'action') onActionClick?.(item);
@@ -66,18 +70,40 @@ export function Navbar({
           <div className="box-border content-stretch flex flex-row h-[33px] items-center justify-start p-[0px] relative shrink-0">
             {/* Desktop actions */}
             <div className="hidden md:flex flex-row">
-              {actionItems.map((item) => (
-                <Link
-                  key={item}
-                  href={actionPath[item] ?? '/'}
-                  className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
-                  onClick={() => handleNavigate(item, 'action')}
-                >
-                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
-                    <p className="block leading-[1.5] whitespace-pre">{item}</p>
-                  </div>
-                </Link>
-              ))}
+              {actionItems.map((item) => {
+                const href = actionPath[item] ?? '/';
+                const isExternal = isExternalUrl(href);
+                
+                if (isExternal) {
+                  return (
+                    <a
+                      key={item}
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
+                      onClick={() => handleNavigate(item, 'action')}
+                    >
+                      <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
+                        <p className="block leading-[1.5] whitespace-pre">{item}</p>
+                      </div>
+                    </a>
+                  );
+                }
+                
+                return (
+                  <Link
+                    key={item}
+                    href={href as Route}
+                    className="box-border content-stretch flex flex-row items-center justify-center px-[10px] py-[6px] relative shrink-0 cursor-pointer"
+                    onClick={() => handleNavigate(item, 'action')}
+                  >
+                    <div className="font-medium leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(3,18,40,0.7)] text-left text-nowrap">
+                      <p className="block leading-[1.5] whitespace-pre">{item}</p>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
             {/* Apply button only on desktop */}
             <div className="hidden md:block">
@@ -114,16 +140,36 @@ export function Navbar({
               </Link>
             ))}
             <div className="h-px bg-[#e5e8eb] my-2" />
-            {actionItems.map((item) => (
-              <Link
-                key={`a-${item}`}
-                href={actionPath[item] ?? '/'}
-                className="py-3 text-[15px] text-[#4e5968]"
-                onClick={() => handleNavigate(item, 'action')}
-              >
-                {item}
-              </Link>
-            ))}
+            {actionItems.map((item) => {
+              const href = actionPath[item] ?? '/';
+              const isExternal = isExternalUrl(href);
+              
+              if (isExternal) {
+                return (
+                  <a
+                    key={`a-${item}`}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="py-3 text-[15px] text-[#4e5968]"
+                    onClick={() => handleNavigate(item, 'action')}
+                  >
+                    {item}
+                  </a>
+                );
+              }
+              
+              return (
+                <Link
+                  key={`a-${item}`}
+                  href={href as Route}
+                  className="py-3 text-[15px] text-[#4e5968]"
+                  onClick={() => handleNavigate(item, 'action')}
+                >
+                  {item}
+                </Link>
+              );
+            })}
           </div>
         </div>
       )}
