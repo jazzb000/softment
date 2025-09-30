@@ -91,8 +91,6 @@ export default function App() {
               pageNumbers={[1, 2, 3, 4, 5, 16]}
               currentPage={currentPage}
               onPageChange={setCurrentPage}
-              showDots={true}
-              showPrevNext={true}
             />
           </div>
         </div>
