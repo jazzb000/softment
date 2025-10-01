@@ -6,18 +6,18 @@ import { PageContainer } from "../components/PageContainer";
 import Link from "next/link";
 
 // 아이콘 이미지
-const iconCreditCard = "/icon/신용카드.png";
-const iconBankTransfer = "/icon/계좌이체.png";
-const iconSimplePay = "/icon/간편결제.png";
-const iconVirtualAccount = "/icon/가상계좌.png";
-const iconBilling = "/icon/빌링(자동결제).png";
-const iconKeyIn = "/icon/키인결제.png";
-const iconPaypal = "/icon/해외간편결제(페이팔).png";
-const iconForeignCard = "/icon/해외카드.png";
-const iconInstallment = "/icon/무이자 할부.png";
-const iconSettlement = "/icon/정산지급대행 서비스.png";
-const iconAccountVerification = "/icon/계좌 유효성 인증.png";
-const iconStoreManager = "/icon/상점관리자.png";
+const iconCreditCard = "/icon/credit-card.png";
+const iconBankTransfer = "/icon/bank-transfer.png";
+const iconSimplePay = "/icon/simple-pay.png";
+const iconVirtualAccount = "/icon/virtual-account.png";
+const iconBilling = "/icon/billing.png";
+const iconKeyIn = "/icon/key-in.png";
+const iconPaypal = "/icon/paypal.png";
+const iconForeignCard = "/icon/foreign-card.png";
+const iconInstallment = "/icon/installment.png";
+const iconSettlement = "/icon/settlement.png";
+const iconAccountVerification = "/icon/account-verification.png";
+const iconStoreManager = "/icon/store-manager.png";
 
 export default function Paymentservice() {
   // Footer 내부에서 자체 관리로 전환됨
