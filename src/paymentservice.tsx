@@ -197,27 +197,31 @@ export default function Paymentservice() {
             </div>
             <div className="box-border content-stretch flex flex-col gap-[32px] lg:gap-[40px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="Contents">
               <div className="box-border content-stretch grid grid-cols-1 lg:grid-cols-2 gap-[24px] lg:gap-[32px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="1">
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-[0px] relative shrink-0" data-name="해외간편결제">
-                  <img src={iconPaypal} alt="해외간편결제" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[20px] text-left">
-                    <p className="block leading-[1.6] whitespace-pre">해외간편결제</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start min-h-px min-w-px p-[0px] relative shrink-0" data-name="해외간편결제">
+                  <img src={iconPaypal} alt="해외간편결제" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[20px] text-left">
+                      <p className="block leading-[1.6] whitespace-pre">해외간편결제</p>
+                    </div>
+                    <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[17px] text-left tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">해외간편결제 서비스는 해외 온·오프라인 가맹점에서 해외의 간편결제(페이팔,알리페이,위챗페이,라인페이 등) 방식을 이용하여 결제할 수 있는 서비스를 제공합니다.</p>
+                    </div>
+                    {/* <div className="box-border content-stretch flex flex-row gap-[4px] items-start justify-start p-[0px] relative shrink-0" data-name="Buttons">
+                      <LinkButton>소개서보기</LinkButton>
+                      <LinkButton>신청하기</LinkButton>
+                    </div> */}
                   </div>
-                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[17px] text-left tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">해외간편결제 서비스는 해외 온·오프라인 가맹점에서 해외의 간편결제(페이팔,알리페이,위챗페이,라인페이 등) 방식을 이용하여 결제할 수 있는 서비스를 제공합니다.</p>
-                  </div>
-                  {/* <div className="box-border content-stretch flex flex-row gap-[4px] items-start justify-start p-[0px] relative shrink-0" data-name="Buttons">
-                    <LinkButton>소개서보기</LinkButton>
-                    <LinkButton>신청하기</LinkButton>
-                  </div> */}
                 </div>
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="해외카드">
-                  <img src={iconForeignCard} alt="해외카드" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px] text-nowrap">
-                    <p className="block leading-[1.6] whitespace-pre">해외카드</p>
-                  </div>
-                  <div className="font-medium leading-[1.6] relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block mb-0 whitespace-pre-wrap break-words">소프트먼트의 해외카드결제 서비스는 해외 발행 카드(VISA, MASTER, JCB)를 통해 해외 고객이 국내 가맹점에서 USD, KRW, JPY 로 결제할 수 있도록 지원합니다. 사전에 등록된 비밀번호를 입력하여 인증하는 3D 인증 절차를 통해 안전한 결제를 제공합니다.</p>
-                    <p className="block ">오프라인 결제서비스</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="해외카드">
+                  <img src={iconForeignCard} alt="해외카드" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px] text-nowrap">
+                      <p className="block leading-[1.6] whitespace-pre">해외카드</p>
+                    </div>
+                    <div className="font-medium leading-[1.6] relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block mb-0 whitespace-pre-wrap break-words">소프트먼트의 해외카드결제 서비스는 해외 발행 카드(VISA, MASTER, JCB)를 통해 해외 고객이 국내 가맹점에서 USD, KRW, JPY 로 결제할 수 있도록 지원합니다. 사전에 등록된 비밀번호를 입력하여 인증하는 3D 인증 절차를 통해 안전한 결제를 제공합니다.</p>
+                      <p className="block ">오프라인 결제서비스</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -290,22 +294,26 @@ export default function Paymentservice() {
                     <p className="block leading-[1.6] whitespace-pre-wrap break-words">VAN은 상점과 카드사 사이에서 거래 정보를 주고받는 통신망이에요. 온라인 사업자라면, PG가 VAN·카드사 대신 통신해요.</p>
                   </div>
                 </div> */}
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="무이자 할부">
-                  <img src={iconInstallment} alt="무이자 할부" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">무이자 할부</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">무이자 할부는 고객이 이자를 내지 않고 무료로 신용카드 할부를 사용하는 것을 의미해요. 카드사 또는 상점에서 고객 대신 이자를 부담하는 방식으로, 이자를 부담하는 주최에 따라 4가지 분류로 나뉘어요. (카드사 부담 무이자 할부, 카드사 부분 무이자 할부, 상점 부담 무이자 할부, 특별 분담 무이자 할부) 전 카드사 대상 장기할부를 경쟁력 있는 수수료로 제공해요.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="무이자 할부">
+                  <img src={iconInstallment} alt="무이자 할부" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">무이자 할부</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">무이자 할부는 고객이 이자를 내지 않고 무료로 신용카드 할부를 사용하는 것을 의미해요. 카드사 또는 상점에서 고객 대신 이자를 부담하는 방식으로, 이자를 부담하는 주최에 따라 4가지 분류로 나뉘어요. (카드사 부담 무이자 할부, 카드사 부분 무이자 할부, 상점 부담 무이자 할부, 특별 분담 무이자 할부) 전 카드사 대상 장기할부를 경쟁력 있는 수수료로 제공해요.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="정산지급대행 서비스">
-                  <img src={iconSettlement} alt="정산지급대행 서비스" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">정산지급대행 서비스</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">오픈마켓 형태의 쇼핑몰을 대상으로 전자금융사업자인 소프트먼트가 쇼핑몰 입점 판매자에게 대금지급을 대행해주는 서비스입니다.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="정산지급대행 서비스">
+                  <img src={iconSettlement} alt="정산지급대행 서비스" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">정산지급대행 서비스</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">오픈마켓 형태의 쇼핑몰을 대상으로 전자금융사업자인 소프트먼트가 쇼핑몰 입점 판매자에게 대금지급을 대행해주는 서비스입니다.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -318,22 +326,26 @@ export default function Paymentservice() {
                     <p className="block leading-[1.6] whitespace-pre-wrap break-words">고객이 구매확정을 해야 결제 대금이 지급되는 구매자 보호 서비스입니다.</p>
                   </div>
                 </div> */}
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="계좌 유효성 인증">
-                  <img src={iconAccountVerification} alt="계좌 유효성 인증" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">계좌 유효성 인증</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">계좌 정보와 예금주 일치 여부를 확인하는 서비스예요.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="계좌 유효성 인증">
+                  <img src={iconAccountVerification} alt="계좌 유효성 인증" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">계좌 유효성 인증</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">계좌 정보와 예금주 일치 여부를 확인하는 서비스예요.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="상점관리자">
-                  <img src={iconStoreManager} alt="상점관리자" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">상점관리자</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">소프트먼트 상점관리자는 내 상점의 정산, 결제 조회, 계약 정보, 부가세 신고 자료를 모두 관리할 수 있는 서비스예요.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="상점관리자">
+                  <img src={iconStoreManager} alt="상점관리자" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">상점관리자</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">소프트먼트 상점관리자는 내 상점의 정산, 결제 조회, 계약 정보, 부가세 신고 자료를 모두 관리할 수 있는 서비스예요.</p>
+                    </div>
                   </div>
                 </div>
               </div>
