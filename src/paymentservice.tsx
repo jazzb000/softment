@@ -5,6 +5,19 @@ import { Footer } from "../components/Footer";
 import { PageContainer } from "../components/PageContainer";
 import Link from "next/link";
 
+// 아이콘 이미지
+const iconCreditCard = "/icon/신용카드.png";
+const iconBankTransfer = "/icon/계좌이체.png";
+const iconSimplePay = "/icon/간편결제.png";
+const iconVirtualAccount = "/icon/가상계좌.png";
+const iconBilling = "/icon/빌링(자동결제).png";
+const iconKeyIn = "/icon/키인결제.png";
+const iconPaypal = "/icon/해외간편결제(페이팔).png";
+const iconForeignCard = "/icon/해외카드.png";
+const iconInstallment = "/icon/무이자 할부.png";
+const iconSettlement = "/icon/정산지급대행 서비스.png";
+const iconAccountVerification = "/icon/계좌 유효성 인증.png";
+const iconStoreManager = "/icon/상점관리자.png";
 
 export default function Paymentservice() {
   // Footer 내부에서 자체 관리로 전환됨
@@ -51,6 +64,7 @@ export default function Paymentservice() {
             <div className="box-border content-stretch flex flex-col gap-[32px] md:gap-[40px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="Contents">
               <div className="box-border content-stretch grid grid-cols-1 lg:grid-cols-2 gap-[24px] lg:gap-[32px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="1">
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="신용카드">
+                  <img src={iconCreditCard} alt="신용카드" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">신용카드</p>
                   </div>
@@ -59,6 +73,7 @@ export default function Paymentservice() {
                   </div>
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-[0px] relative shrink-0" data-name="계좌이체">
+                  <img src={iconBankTransfer} alt="계좌이체" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[20px] text-left">
                     <p className="block leading-[1.6] whitespace-pre">계좌이체</p>
                   </div>
@@ -72,6 +87,7 @@ export default function Paymentservice() {
               </div>
               <div className="box-border content-stretch grid grid-cols-1 lg:grid-cols-2 gap-[24px] lg:gap-[32px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="2">
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="간편결제">
+                  <img src={iconSimplePay} alt="간편결제" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-['PretendARD'] font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">간편결제</p>
                   </div>
@@ -80,6 +96,7 @@ export default function Paymentservice() {
                   </div>
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="가상계좌">
+                  <img src={iconVirtualAccount} alt="가상계좌" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">가상계좌</p>
                   </div>
@@ -130,6 +147,7 @@ export default function Paymentservice() {
                   <LinkButton>자세히보기</LinkButton>
                 </div> */}
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="빌링">
+                  <img src={iconBilling} alt="빌링(자동결제)" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px] text-nowrap">
                     <p className="block leading-[1.6] whitespace-pre">빌링 (자동결제)</p>
                   </div>
@@ -138,6 +156,7 @@ export default function Paymentservice() {
                   </div>
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="키인결제">
+                  <img src={iconKeyIn} alt="키인결제" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">키인결제</p>
                   </div>
@@ -167,6 +186,7 @@ export default function Paymentservice() {
             <div className="box-border content-stretch flex flex-col gap-[32px] lg:gap-[40px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="Contents">
               <div className="box-border content-stretch grid grid-cols-1 lg:grid-cols-2 gap-[24px] lg:gap-[32px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="1">
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-[0px] relative shrink-0" data-name="해외간편결제">
+                  <img src={iconPaypal} alt="해외간편결제" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[20px] text-left">
                     <p className="block leading-[1.6] whitespace-pre">해외간편결제</p>
                   </div>
@@ -179,6 +199,7 @@ export default function Paymentservice() {
                   </div> */}
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="해외카드">
+                  <img src={iconForeignCard} alt="해외카드" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px] text-nowrap">
                     <p className="block leading-[1.6] whitespace-pre">해외카드</p>
                   </div>
@@ -258,6 +279,7 @@ export default function Paymentservice() {
                   </div>
                 </div> */}
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="무이자 할부">
+                  <img src={iconInstallment} alt="무이자 할부" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">무이자 할부</p>
                   </div>
@@ -266,6 +288,7 @@ export default function Paymentservice() {
                   </div>
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="정산지급대행 서비스">
+                  <img src={iconSettlement} alt="정산지급대행 서비스" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">정산지급대행 서비스</p>
                   </div>
@@ -284,6 +307,7 @@ export default function Paymentservice() {
                   </div>
                 </div> */}
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="계좌 유효성 인증">
+                  <img src={iconAccountVerification} alt="계좌 유효성 인증" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">계좌 유효성 인증</p>
                   </div>
@@ -292,6 +316,7 @@ export default function Paymentservice() {
                   </div>
                 </div>
                 <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="상점관리자">
+                  <img src={iconStoreManager} alt="상점관리자" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
                   <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
                     <p className="block leading-[1.6] whitespace-pre">상점관리자</p>
                   </div>
