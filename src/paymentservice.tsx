@@ -63,45 +63,53 @@ export default function Paymentservice() {
             </div>
             <div className="box-border content-stretch flex flex-col gap-[32px] md:gap-[40px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="Contents">
               <div className="box-border content-stretch grid grid-cols-1 lg:grid-cols-2 gap-[24px] lg:gap-[32px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="1">
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="신용카드">
-                  <img src={iconCreditCard} alt="신용카드" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">신용카드</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">국내 모든 카드사와 VISA, MASTER 같은 해외 주요 카드사를 다양하게 지원합니다.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="신용카드">
+                  <img src={iconCreditCard} alt="신용카드" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">신용카드</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">국내 모든 카드사와 VISA, MASTER 같은 해외 주요 카드사를 다양하게 지원합니다.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start min-h-px min-w-px p-[0px] relative shrink-0" data-name="계좌이체">
-                  <img src={iconBankTransfer} alt="계좌이체" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[20px] text-left">
-                    <p className="block leading-[1.6] whitespace-pre">계좌이체</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start min-h-px min-w-px p-[0px] relative shrink-0" data-name="계좌이체">
+                  <img src={iconBankTransfer} alt="계좌이체" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold leading-[0] not-italic relative shrink-0 text-[#333d4b] text-[20px] text-left">
+                      <p className="block leading-[1.6] whitespace-pre">계좌이체</p>
+                    </div>
+                    <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[17px] text-left tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">복잡한 공동인증서, 프로그램 설치 없이 퀵계좌이체, 뱅크페이로 간편하게 계좌이체할 수 있습니다.</p>
+                    </div>
+                    <Link href="/quick">
+                      <LinkButton>자세히보기</LinkButton>
+                    </Link>
                   </div>
-                  <div className="font-medium leading-[0] not-italic relative shrink-0 text-[#6b7684] text-[17px] text-left tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">복잡한 공동인증서, 프로그램 설치 없이 퀵계좌이체, 뱅크페이로 간편하게 계좌이체할 수 있습니다.</p>
-                  </div>
-                  <Link href="/quick">
-                    <LinkButton>자세히보기</LinkButton>
-                  </Link>
                 </div>
               </div>
               <div className="box-border content-stretch grid grid-cols-1 lg:grid-cols-2 gap-[24px] lg:gap-[32px] xl:gap-[48px] items-start justify-start p-[0px] relative shrink-0 w-full" data-name="2">
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="간편결제">
-                  <img src={iconSimplePay} alt="간편결제" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-['PretendARD'] font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">간편결제</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">토스페이, 네이버페이, 카카오페이, 애플페이, 삼성페이, 페이코, SSG페이, L.pay 등 다양한 간편결제 수단을 제공합니다. 각 간편결제사와 따로 계약을 하지 않고, 소프트먼트를 통해서 신청 후 이용할 수 있습니다.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="간편결제">
+                  <img src={iconSimplePay} alt="간편결제" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-['PretendARD'] font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">간편결제</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">토스페이, 네이버페이, 카카오페이, 애플페이, 삼성페이, 페이코, SSG페이, L.pay 등 다양한 간편결제 수단을 제공합니다. 각 간편결제사와 따로 계약을 하지 않고, 소프트먼트를 통해서 신청 후 이용할 수 있습니다.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="가상계좌">
-                  <img src={iconVirtualAccount} alt="가상계좌" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">가상계좌</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">고객이 가상계좌 결제를 요청하면, 고객의 이름으로 임시 계좌가 발급됩니다. 고객은 해당 계좌에 주문 금액을 정확히 입금하면 결제가 완료됩니다. 다른 이름으로 '무통장입금' 이라고 불리기도 합니다.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="가상계좌">
+                  <img src={iconVirtualAccount} alt="가상계좌" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">가상계좌</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">고객이 가상계좌 결제를 요청하면, 고객의 이름으로 임시 계좌가 발급됩니다. 고객은 해당 계좌에 주문 금액을 정확히 입금하면 결제가 완료됩니다. 다른 이름으로 '무통장입금' 이라고 불리기도 합니다.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -146,22 +154,26 @@ export default function Paymentservice() {
                   </div>
                   <LinkButton>자세히보기</LinkButton>
                 </div> */}
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="빌링">
-                  <img src={iconBilling} alt="빌링(자동결제)" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px] text-nowrap">
-                    <p className="block leading-[1.6] whitespace-pre">빌링 (자동결제)</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">원하는 때에 고객이 등록한 수단으로 자동 결제하는 서비스입니다. 주기에 따라 반복해서 결제할 수도, 한 번만 결제할 수도 있습니다. 구독형 서비스에서 주로 사용합니다.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="빌링">
+                  <img src={iconBilling} alt="빌링(자동결제)" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px] text-nowrap">
+                      <p className="block leading-[1.6] whitespace-pre">빌링 (자동결제)</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">원하는 때에 고객이 등록한 수단으로 자동 결제하는 서비스입니다. 주기에 따라 반복해서 결제할 수도, 한 번만 결제할 수도 있습니다. 구독형 서비스에서 주로 사용합니다.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="키인결제">
-                  <img src={iconKeyIn} alt="키인결제" className="w-12 h-12 md:w-14 md:h-14 mb-3 md:mb-4" />
-                  <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
-                    <p className="block leading-[1.6] whitespace-pre">키인결제</p>
-                  </div>
-                  <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
-                    <p className="block leading-[1.6] whitespace-pre-wrap break-words">소프트먼트는 카드 비인증 결제를 지원해요. 카드 번호 결제 API를 사용하면 제한적인 업종에 한해서 엄중한 심사를 통해 카드 정보로 결제를 요청할 수 있어요. 카드 정보를 입력해서 결제하는 방식으로 '수기 결제', '키인(Key-in) 결제'라고 불리기도 해요.</p>
+                <div className="basis-0 box-border content-stretch flex flex-col md:flex-row gap-3 md:gap-4 grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="키인결제">
+                  <img src={iconKeyIn} alt="키인결제" className="w-12 h-12 md:w-14 md:h-14 shrink-0" />
+                  <div className="flex flex-col gap-1">
+                    <div className="font-semibold relative shrink-0 text-[#333d4b] text-[20px]">
+                      <p className="block leading-[1.6] whitespace-pre">키인결제</p>
+                    </div>
+                    <div className="font-medium relative shrink-0 text-[#6b7684] text-[17px] tracking-[-0.17px]">
+                      <p className="block leading-[1.6] whitespace-pre-wrap break-words">소프트먼트는 카드 비인증 결제를 지원해요. 카드 번호 결제 API를 사용하면 제한적인 업종에 한해서 엄중한 심사를 통해 카드 정보로 결제를 요청할 수 있어요. 카드 정보를 입력해서 결제하는 방식으로 '수기 결제', '키인(Key-in) 결제'라고 불리기도 해요.</p>
+                    </div>
                   </div>
                 </div>
                 {/* <div className="basis-0 box-border content-stretch flex flex-col grow items-start justify-start leading-[0] min-h-px min-w-px not-italic p-[0px] relative shrink-0 text-left" data-name="안심키인">
