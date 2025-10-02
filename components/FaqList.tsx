@@ -64,8 +64,8 @@ export function FaqList({ items, onItemClick, className = "" }: FaqListProps) {
             >
               {/* Question Row */}
               <div className="flex flex-col lg:flex-row items-start lg:items-center w-full">
-                <div className="px-4 lg:px-[16px] py-0 lg:py-[20px] w-full lg:w-[149px]">
-                  <p className="text-[14px] pt-[20px] lg:pt-0 lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-pre-wrap">
+                <div className="px-4 lg:px-[16px] py-0 lg:py-[20px] w-full lg:w-[149px] shrink-0">
+                  <p className="text-[14px] pt-[20px] lg:pt-0 lg:text-[17px] text-[#4e5968] leading-[1.6] whitespace-nowrap">
                     {item.category}
                   </p>
                 </div>
