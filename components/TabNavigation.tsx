@@ -60,7 +60,7 @@ export function TabNavigation({
 
   return (
     <div className={`relative shrink-0 w-full overflow-hidden ${className}`}>
-      <div ref={scrollRef} className="box-border content-stretch flex flex-row items-center justify-start overflow-hidden p-0 relative w-full">
+      <div ref={scrollRef} className="box-border content-stretch flex flex-row items-center justify-start overflow-x-auto p-0 relative w-full [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {tabs.map((tab) => {
           const isActive = activeTab === tab;
           const isHovered = hoveredTab === tab;
@@ -69,7 +69,7 @@ export function TabNavigation({
           return (
             <div 
               key={tab}
-              className="box-border content-stretch flex flex-row gap-[10px] items-center justify-center pr-[12px] pl-[12px] first:pl-2 sm:first:pl-0 last:pr-0 py-[9px] relative shrink-0 cursor-pointer"
+              className="box-border content-stretch flex flex-row gap-[10px] items-center justify-center pr-[12px] pl-[12px] first:pl-2 sm:first:pl-0 last:pr-6 py-[9px] relative shrink-0 cursor-pointer"
               onClick={() => handleTabClick(tab)}
               onMouseEnter={() => handleTabMouseEnter(tab)}
               onMouseLeave={handleTabMouseLeave}
