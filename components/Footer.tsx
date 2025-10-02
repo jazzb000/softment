@@ -17,10 +17,10 @@ export function Footer() {
   ];
   return (
     <div
-      className="bg-[#f9fafb] box-border content-stretch flex flex-col items-center justify-start overflow-clip pb-[80px] pt-[60px] sm:pb-[80px] sm:pt-[60px] sm:px-[40px] md:pb-[100px] md:pt-[50px] md:px-[67px] relative shrink-0 w-full"
+      className="bg-[#f9fafb] box-border content-stretch flex flex-col items-center justify-start overflow-clip pb-[80px] pt-[60px] px-[16px] sm:pb-[80px] sm:pt-[60px] sm:px-[40px] md:pb-[100px] md:pt-[50px] md:px-[67px] relative shrink-0 w-full"
       data-name="푸터"
     >
-      <div className="box-border content-stretch flex flex-col items-start justify-start relative shrink-0 w-full max-w-[280px] md:max-w-[890px] xl:max-w-[890px] min-w-0">
+      <div className="box-border content-stretch flex flex-col items-start justify-start relative shrink-0 w-full max-w-[400px] sm:max-w-[448px] md:max-w-[890px] xl:max-w-[890px] min-w-0">
         <div
           className="box-border content-stretch flex flex-col md:flex-row md:flex-nowrap items-start justify-start pb-[30px] md:pb-[50px] pt-[0px] px-[0px] relative shrink-0 w-full gap-[40px] md:gap-[0px]"
           data-name="푸터 메뉴"
